@@ -1,0 +1,2025 @@
+{
+    "title": "Semaglutide diabetes treatment",
+    "create_time": 1757417720.463348,
+    "update_time": 1758180348.000992,
+    "mapping": {
+        "client-created-root": {
+            "id": "client-created-root",
+            "message": null,
+            "parent": null,
+            "children": [
+                "6b6e3ac8-6533-4886-ab8a-465aebe35d81"
+            ]
+        },
+        "6b6e3ac8-6533-4886-ab8a-465aebe35d81": {
+            "id": "6b6e3ac8-6533-4886-ab8a-465aebe35d81",
+            "message": {
+                "id": "6b6e3ac8-6533-4886-ab8a-465aebe35d81",
+                "author": {
+                    "role": "system",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": null,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": true,
+                "weight": 0,
+                "metadata": {
+                    "is_visually_hidden_from_conversation": true
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "client-created-root",
+            "children": [
+                "a8af1590-8edb-46a5-a9b1-29770ef79d1f"
+            ]
+        },
+        "a8af1590-8edb-46a5-a9b1-29770ef79d1f": {
+            "id": "a8af1590-8edb-46a5-a9b1-29770ef79d1f",
+            "message": {
+                "id": "a8af1590-8edb-46a5-a9b1-29770ef79d1f",
+                "author": {
+                    "role": "system",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": null,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": true,
+                "weight": 0,
+                "metadata": {
+                    "rebase_developer_message": true,
+                    "is_visually_hidden_from_conversation": true
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "6b6e3ac8-6533-4886-ab8a-465aebe35d81",
+            "children": [
+                "7310037d-4d8f-49ef-b70c-f985fce889d0"
+            ]
+        },
+        "7310037d-4d8f-49ef-b70c-f985fce889d0": {
+            "id": "7310037d-4d8f-49ef-b70c-f985fce889d0",
+            "message": {
+                "id": "7310037d-4d8f-49ef-b70c-f985fce889d0",
+                "author": {
+                    "role": "system",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": null,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                    "is_contextual_answers_system_message": true,
+                    "contextual_answers_message_type": "identity_prompt",
+                    "is_visually_hidden_from_conversation": true
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "a8af1590-8edb-46a5-a9b1-29770ef79d1f",
+            "children": [
+                "9a3fdd41-b043-41e4-8039-67957a056645"
+            ]
+        },
+        "9a3fdd41-b043-41e4-8039-67957a056645": {
+            "id": "9a3fdd41-b043-41e4-8039-67957a056645",
+            "message": {
+                "id": "9a3fdd41-b043-41e4-8039-67957a056645",
+                "author": {
+                    "role": "user",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1757417719.206,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "Please perform a web search on how semaglutide is used in the treatment of diabetes."
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                    "developer_mode_connector_ids": [],
+                    "selected_sources": [],
+                    "selected_github_repos": [],
+                    "serialization_metadata": {
+                        "custom_symbol_offsets": []
+                    },
+                    "request_id": "97c661ac7d8b5457-ATL",
+                    "message_source": null,
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "7310037d-4d8f-49ef-b70c-f985fce889d0",
+            "children": [
+                "caea26af-abf0-4861-913b-b9e66d3e7d0e"
+            ]
+        },
+        "caea26af-abf0-4861-913b-b9e66d3e7d0e": {
+            "id": "caea26af-abf0-4861-913b-b9e66d3e7d0e",
+            "message": {
+                "id": "caea26af-abf0-4861-913b-b9e66d3e7d0e",
+                "author": {
+                    "role": "system",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1757417720.2674768,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                    "is_contextual_answers_system_message": true,
+                    "is_visually_hidden_from_conversation": true,
+                    "command": "prompt",
+                    "contextual_answers_message_type": "sources_and_filters_prompt",
+                    "request_id": "97c661ac7d8b5457-ATL",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "9a3fdd41-b043-41e4-8039-67957a056645",
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "9a3fdd41-b043-41e4-8039-67957a056645",
+            "children": [
+                "6772dcf0-b94f-4cbc-8132-8be495c77303"
+            ]
+        },
+        "6772dcf0-b94f-4cbc-8132-8be495c77303": {
+            "id": "6772dcf0-b94f-4cbc-8132-8be495c77303",
+            "message": {
+                "id": "6772dcf0-b94f-4cbc-8132-8be495c77303",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1757417721.0672574,
+                "update_time": null,
+                "content": {
+                    "content_type": "model_editable_context",
+                    "model_set_context": "",
+                    "repository": null,
+                    "repo_summary": null,
+                    "structured_context": null
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                    "request_id": "97c661ac7d8b5457-ATL",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "caea26af-abf0-4861-913b-b9e66d3e7d0e",
+                    "timestamp_": "absolute",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "caea26af-abf0-4861-913b-b9e66d3e7d0e",
+            "children": [
+                "f21a6f95-a7ba-4a5b-b2df-3d9532ab90d0"
+            ]
+        },
+        "f21a6f95-a7ba-4a5b-b2df-3d9532ab90d0": {
+            "id": "f21a6f95-a7ba-4a5b-b2df-3d9532ab90d0",
+            "message": {
+                "id": "f21a6f95-a7ba-4a5b-b2df-3d9532ab90d0",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1757417721.117893,
+                "update_time": null,
+                "content": {
+                    "content_type": "thoughts",
+                    "thoughts": [],
+                    "source_analysis_msg_id": "1910edb1-074d-48e9-856d-d9b657b610e6"
+                },
+                "status": "in_progress",
+                "end_turn": false,
+                "weight": 1,
+                "metadata": {
+                    "reasoning_status": "is_reasoning",
+                    "citations": [],
+                    "content_references": [],
+                    "classifier_response": "default",
+                    "skip_reasoning_title": "Skip",
+                    "request_id": "97c661ac7d8b5457-ATL",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "6772dcf0-b94f-4cbc-8132-8be495c77303",
+                    "timestamp_": "absolute",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "6772dcf0-b94f-4cbc-8132-8be495c77303",
+            "children": [
+                "f0c712ee-1ad4-43f7-ac95-6e33a9519582"
+            ]
+        },
+        "f0c712ee-1ad4-43f7-ac95-6e33a9519582": {
+            "id": "f0c712ee-1ad4-43f7-ac95-6e33a9519582",
+            "message": {
+                "id": "f0c712ee-1ad4-43f7-ac95-6e33a9519582",
+                "author": {
+                    "role": "tool",
+                    "name": "web.run",
+                    "metadata": {
+                        "real_author": "tool:web.run"
+                    }
+                },
+                "create_time": 1757417731.826169,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                    "search_result_groups": [],
+                    "debug_sonic_thread_id": null,
+                    "reasoning_status": "is_reasoning",
+                    "classifier_response": "default",
+                    "request_id": "97c661ac7d8b5457-ATL",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "f21a6f95-a7ba-4a5b-b2df-3d9532ab90d0",
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "f21a6f95-a7ba-4a5b-b2df-3d9532ab90d0",
+            "children": [
+                "fdbab18b-05d8-4b55-9c9d-1669d9684e5b"
+            ]
+        },
+        "fdbab18b-05d8-4b55-9c9d-1669d9684e5b": {
+            "id": "fdbab18b-05d8-4b55-9c9d-1669d9684e5b",
+            "message": {
+                "id": "fdbab18b-05d8-4b55-9c9d-1669d9684e5b",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1757417731.839548,
+                "update_time": null,
+                "content": {
+                    "content_type": "code",
+                    "language": "unknown",
+                    "response_format_name": null,
+                    "text": "{\"search_query\": [{\"q\": \"ADA Standards of Care 2025 GLP-1 receptor agonists semaglutide type 2 diabetes\"}, {\"q\": \"Ozempic semaglutide FDA prescribing information label Type 2 diabetes dosing warnings\"}, {\"q\": \"Rybelsus oral semaglutide prescribing information dosing instructions administration\"}, {\"q\": \"SUSTAIN-6 trial semaglutide cardiovascular outcomes\"}], \"response_length\": \"short\"}"
+                },
+                "status": "finished_successfully",
+                "end_turn": false,
+                "weight": 1,
+                "metadata": {
+                    "finish_details": {
+                        "type": "stop",
+                        "stop_tokens": [
+                            200012
+                        ]
+                    },
+                    "is_complete": true,
+                    "citations": [],
+                    "content_references": [],
+                    "reasoning_status": "is_reasoning",
+                    "search_queries": [
+                        {
+                            "type": "search",
+                            "q": "ADA Standards of Care 2025 GLP-1 receptor agonists semaglutide type 2 diabetes"
+                        },
+                        {
+                            "type": "search",
+                            "q": "Ozempic semaglutide FDA prescribing information label Type 2 diabetes dosing warnings"
+                        },
+                        {
+                            "type": "search",
+                            "q": "Rybelsus oral semaglutide prescribing information dosing instructions administration"
+                        },
+                        {
+                            "type": "search",
+                            "q": "SUSTAIN-6 trial semaglutide cardiovascular outcomes"
+                        }
+                    ],
+                    "search_display_string": "Searching the web...",
+                    "searched_display_string": "Searched the web...",
+                    "reasoning_title": "Searching for semaglutide and type 2 diabetes guidelines",
+                    "classifier_response": "default",
+                    "request_id": "97c661ac7d8b5457-ATL",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "f0c712ee-1ad4-43f7-ac95-6e33a9519582",
+                    "timestamp_": "absolute",
+                    "model_switcher_deny": []
+                },
+                "recipient": "web.run",
+                "channel": null
+            },
+            "parent": "f0c712ee-1ad4-43f7-ac95-6e33a9519582",
+            "children": [
+                "57094175-3805-4ca4-90dc-f366f8d6000d"
+            ]
+        },
+        "57094175-3805-4ca4-90dc-f366f8d6000d": {
+            "id": "57094175-3805-4ca4-90dc-f366f8d6000d",
+            "message": {
+                "id": "57094175-3805-4ca4-90dc-f366f8d6000d",
+                "author": {
+                    "role": "tool",
+                    "name": "web.run",
+                    "metadata": {
+                        "real_author": "tool:web.run"
+                    }
+                },
+                "create_time": 1757417734.3894558,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                    "search_result_groups": [
+                        {
+                            "type": "search_result_group",
+                            "domain": "diabetesjournals.org",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment",
+                                    "title": "9. Pharmacologic Approaches to Glycemic Treatment",
+                                    "snippet": "2025 · Cited by 195 — Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2025 Available. American Diabetes Association Professional ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "diabetesjournals.org"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/diabetesjournals.org\/care\/article\/48\/2\/177\/157478\/Compounded-GLP-1-and-Dual-GIP-GLP-1-Receptor",
+                                    "title": "Compounded GLP-1 and Dual GIP\/GLP-1 Receptor Agonists",
+                                    "snippet": "Dec 2, 2024 — The ADA recommends against using non-FDA-approved compounded GLP-1 and dual GIP\/GLP-1 RA products due to safety, quality, and effectiveness ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "diabetesjournals.org"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.accessdata.fda.gov",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2023\/209637s020s021lbl.pdf",
+                                    "title": "Ozempic - accessdata.fda.gov",
+                                    "snippet": "In patients with type 2 diabetes, semaglutide exposure increases in a dose-proportional manner for once-weekly doses of 0.5 mg, 1 mg and 2 mg. Steady-state ...",
+                                    "ref_id": null,
+                                    "pub_date": 1718723751,
+                                    "attribution": "www.accessdata.fda.gov"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf",
+                                    "title": "[PDF] RYBELSUS (semaglutide) tablets, for oral use. - accessdata.fda.gov",
+                                    "snippet": "",
+                                    "ref_id": null,
+                                    "pub_date": 1719241528,
+                                    "attribution": "www.accessdata.fda.gov"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf",
+                                    "title": "Highlights of prescribing information - accessdata.fda.gov",
+                                    "snippet": "The maximum recommended dosage is 2 mg once weekly. Recommended Maintenance Dosage in Patients with Type 2 Diabetes Mellitus and Chronic Kidney Disease.",
+                                    "ref_id": null,
+                                    "pub_date": 1738100472,
+                                    "attribution": "www.accessdata.fda.gov"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.nejm.org",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.nejm.org\/doi\/full\/10.1056\/NEJMoa1607141",
+                                    "title": "Semaglutide and Cardiovascular Outcomes in Patients ...",
+                                    "snippet": "by SP Marso · 2016 · Cited by 6743 — Semaglutide-treated patients had a significant 26% lower risk of the primary composite outcome of death from cardiovascular causes, nonfatal ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "www.nejm.org"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "diabetes.org",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/diabetes.org\/newsroom\/press-releases\/american-diabetes-association-releases-standards-care-diabetes-2025",
+                                    "title": "The American Diabetes Association Releases Standards of ...",
+                                    "snippet": "Dec 9, 2024 — The Standards of Care includes strategies for diagnosing and treating diabetes in both youth and adults, methods to prevent or delay type 2 diabetes.",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "diabetes.org"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "pubmed.ncbi.nlm.nih.gov",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/pubmed.ncbi.nlm.nih.gov\/27633186\/",
+                                    "title": "Semaglutide and Cardiovascular Outcomes in Patients ...",
+                                    "snippet": "by SP Marso · 2016 · Cited by 6743 — The primary composite outcome was the first occurrence of cardiovascular death, nonfatal myocardial infarction, or nonfatal stroke. We ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "pubmed.ncbi.nlm.nih.gov"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.ozempic.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.ozempic.com\/prescribing-information.html",
+                                    "title": "Prescribing Information | Ozempic® (semaglutide) injection ...",
+                                    "snippet": "Ozempic® (semaglutide) injection 0.5 mg, 1 mg, or 2 mg is an injectable prescription medicine used: along with diet and exercise to improve blood sugar (glucose) ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "www.ozempic.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.novomedlink.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.novomedlink.com\/diabetes\/products\/treatments\/rybelsus\/dosing-administration\/dosing-and-prescribing.html",
+                                    "title": "Dosing & Prescribing | RYBELSUS® (semaglutide) tablets 7 mg or ...",
+                                    "snippet": "",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "www.novomedlink.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.acc.org",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.acc.org\/Latest-in-Cardiology\/Articles\/2020\/01\/02\/15\/05\/Key-CVOTs-with-Semaglutide",
+                                    "title": "Key CVOTs with Semaglutide: SUSTAIN 6 and PIONEER 6",
+                                    "snippet": "Jan 3, 2020 — SUSTAIN 6 3 and PIONEER 6, 4 investigated the effects of subcutaneous and oral semaglutide versus placebo on Major Adverse Cardiovascular Events (MACE)",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "www.acc.org"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "dig.pharmacy.uic.edu",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/dig.pharmacy.uic.edu\/faqs\/2025-2\/august-2025-faqs\/what-are-the-safety-concerns-regarding-compounded-glp-1-receptor-agonists\/",
+                                    "title": "What Are the Safety Concerns Regarding Compounded GLP ...",
+                                    "snippet": "Aug 2, 2025 — The ADA advises considering GLP-1 receptor agonists in children aged 10 and older with T2DM and obesity who fail to meet glycemic goals on ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "dig.pharmacy.uic.edu"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.drugs.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.drugs.com\/ozempic.html",
+                                    "title": "Ozempic: Uses, Dosage, Side Effects, Warnings",
+                                    "snippet": "Jun 16, 2025 — Ozempic (semaglutide) is a prescription medication used for adults with type 2 diabetes to lower their blood sugar levels (A1C).",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "www.drugs.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.verywellhealth.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.verywellhealth.com\/ozempic-semaglutide-uses-efficacy-side-effects-7489260",
+                                    "title": "How Does Ozempic Work?",
+                                    "snippet": "Ozempic (semaglutide) is a glucagon-like peptide-1 (GLP-1) receptor agonist prescribed for adults with type 2 diabetes to help manage blood sugar levels. It works by mimicking the hormone incretin, stimulating insulin secretion, lowering glucagon levels, and slowing gastric emptying, thereby promoting glycemic control. Administered through a weekly injection via a prefilled pen, Ozempic also helps reduce the risk of cardiovascular events like heart attacks and strokes. While not FDA-approved for weight loss, it is often used off-label for this purpose due to its appetite-reducing properties, similar to the FDA-approved weight loss drug Wegovy, which also contains semaglutide. Potential side effects include gastrointestinal issues, and there are severe risks like thyroid C-cell tumors observed in rodent studies. Some individuals, such as those with a history of pancreatitis or type 1 diabetes, should avoid Ozempic. It should be stored properly and taken exactly as directed by a healthcare provider, with considerations for possible drug interactions.",
+                                    "ref_id": null,
+                                    "pub_date": 1686588121,
+                                    "attribution": "www.verywellhealth.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.thetimes.co.uk",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.thetimes.co.uk\/article\/more-diabetic-people-to-be-given-weight-loss-drugs-on-the-nhs-mwsrfj9f7",
+                                    "title": "More diabetic people to be given weight-loss drugs on the NHS",
+                                    "snippet": "The UK's National Health Service (NHS) is set to implement the most significant overhaul in type 2 diabetes care in a decade by providing earlier access to weight-loss and diabetes medications. According to draft guidance from the National Institute for Health and Care Excellence (NICE), the NHS will shift from a standardised treatment model to a more personalised approach. The proposed changes include prioritising the use of newer medications like SGLT-2 inhibitors and GLP-1 receptor agonists (e.g., Ozempic) alongside standard care. These drugs have shown additional benefits in protecting heart and kidney health, reducing the risk of serious complications like strokes and heart attacks.\n\nPreviously, these medications were only offered after the failure of metformin and two other treatments, but the new guidelines recommend earlier access, particularly for patients with cardiovascular disease or those who cannot take metformin. NICE estimates the reform could save nearly 22,000 lives once treatment reaches 90% of eligible patients. The guidelines also recommend tailored treatment for younger patients and those with chronic kidney disease. The public can give feedback on the guidelines until October 2, with health experts praising the reform for its potential to improve outcomes and reduce health inequalities.",
+                                    "ref_id": null,
+                                    "pub_date": 1755644400,
+                                    "attribution": "www.thetimes.co.uk"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "time.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/time.com\/6334001\/weight-loss-drug-wegovy-heart-study-results\/",
+                                    "title": "Weight Loss Drug Wegovy Can Also Reduce Risk of Serious Heart Events, Study Shows",
+                                    "snippet": "A new study has found that the weight loss drug Wegovy (semaglutide) can significantly reduce the risk of serious heart events in certain patients. Presented at the American Heart Association meeting and published in the New England Journal of Medicine, the trial included over 17,000 overweight or obese people with a history of heart attack or stroke. The results showed that those taking Wegovy lost about 9% of their body weight and had a 20% reduction in the risk of heart attacks, strokes, or cardiovascular death compared to the placebo group. This discovery offers a significant new method for addressing obesity-related heart risks. However, the high cost and limited availability of the drug could hinder its widespread use. The study's success may prompt further research and potential updates to the drug's labeling to include heart benefits, which could influence insurance coverage and accessibility.",
+                                    "ref_id": null,
+                                    "pub_date": 1699728673,
+                                    "attribution": "time.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "debug_sonic_thread_id": "thread_68c0110670148011b9833d05283e9e94",
+                    "reasoning_status": "is_reasoning",
+                    "reasoning_title": "Searching for semaglutide and type 2 diabetes guidelines",
+                    "classifier_response": "default",
+                    "request_id": "97c661ac7d8b5457-ATL",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "fdbab18b-05d8-4b55-9c9d-1669d9684e5b",
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "fdbab18b-05d8-4b55-9c9d-1669d9684e5b",
+            "children": [
+                "ac3d3388-1330-48fe-a29c-b588145c5ad3"
+            ]
+        },
+        "ac3d3388-1330-48fe-a29c-b588145c5ad3": {
+            "id": "ac3d3388-1330-48fe-a29c-b588145c5ad3",
+            "message": {
+                "id": "ac3d3388-1330-48fe-a29c-b588145c5ad3",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1757417747.698833,
+                "update_time": null,
+                "content": {
+                    "content_type": "thoughts",
+                    "thoughts": [
+                        {
+                            "summary": "Summarizing Ozempic and Rybelsus Dosing Details",
+                            "content": "We have dosing information for Ozempic: start at 0.25 mg weekly for 4 weeks, then increase to 0.5 mg, escalating to 1 mg and 2 mg if needed. For Rybelsus: start at 3 mg daily, increasing to 7 mg after 30 days, up to 14 mg. Take on an empty stomach with water, waiting 30 mins before food or other meds.\n\nBoth are GLP-1 receptor agonists. There are contraindications for personal or family history of MTC or MEN2. Warnings include pancreatitis, diabetic retinopathy, gallbladder disease, and kidney injury (due to dehydration). No dose adjustment needed for renal impairment, but monitoring is essential.",
+                            "chunks": [],
+                            "finished": true
+                        }
+                    ],
+                    "source_analysis_msg_id": "2f9fc15c-b39b-4086-86dd-7e2c9daa498d"
+                },
+                "status": "finished_successfully",
+                "end_turn": false,
+                "weight": 1,
+                "metadata": {
+                    "reasoning_status": "is_reasoning",
+                    "citations": [],
+                    "content_references": [],
+                    "classifier_response": "default",
+                    "skip_reasoning_title": "Skip",
+                    "request_id": "97c661ac7d8b5457-ATL",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "57094175-3805-4ca4-90dc-f366f8d6000d",
+                    "timestamp_": "absolute",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "57094175-3805-4ca4-90dc-f366f8d6000d",
+            "children": [
+                "e976699e-a144-4541-a31c-ff8d15b96f90"
+            ]
+        },
+        "e976699e-a144-4541-a31c-ff8d15b96f90": {
+            "id": "e976699e-a144-4541-a31c-ff8d15b96f90",
+            "message": {
+                "id": "e976699e-a144-4541-a31c-ff8d15b96f90",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1757417750.281503,
+                "update_time": null,
+                "content": {
+                    "content_type": "reasoning_recap",
+                    "content": "Thought for 29s"
+                },
+                "status": "finished_successfully",
+                "end_turn": false,
+                "weight": 1,
+                "metadata": {
+                    "reasoning_status": "reasoning_ended",
+                    "finished_duration_sec": 29,
+                    "request_id": "97c661ac7d8b5457-ATL",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "ac3d3388-1330-48fe-a29c-b588145c5ad3",
+                    "timestamp_": "absolute",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "ac3d3388-1330-48fe-a29c-b588145c5ad3",
+            "children": [
+                "9ff4c8ec-41ff-430a-bed2-69a0f4515800"
+            ]
+        },
+        "9ff4c8ec-41ff-430a-bed2-69a0f4515800": {
+            "id": "9ff4c8ec-41ff-430a-bed2-69a0f4515800",
+            "message": {
+                "id": "9ff4c8ec-41ff-430a-bed2-69a0f4515800",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1757417735.648989,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "Here’s a concise, evidence-based overview of how **semaglutide** is used to treat diabetes (type 2):\n\n# What it is & how it works\n- **Class:** GLP-1 receptor agonist (GLP-1 RA).  \n- **Mechanism:** Enhances glucose-dependent insulin secretion, suppresses glucagon, slows gastric emptying → lowers post-meal and overall glucose; promotes weight loss. ADA 2025 includes GLP-1 RAs (incl. semaglutide) among preferred agents for many adults with T2D, particularly when ASCVD, CKD, or obesity are present. citeturn0search0\n\n# Formulations & typical dosing\n- **Injectable (Ozempic®):** once weekly. Start **0.25 mg weekly for 4 weeks** (titration only), then **0.5 mg weekly**; may increase to **1 mg** and **2 mg weekly** if needed for glycemic control. citeturn0search5\n- **Oral (Rybelsus®):** daily tablets. Start **3 mg daily for 30 days**, then **7 mg daily**; may increase to **14 mg**. Take on an **empty stomach with ≤4 oz (120 mL) water**, **wait at least 30 minutes** before food, drink, or other oral meds. citeturn0search2\n\n# Indications (diabetes care)\n- **Type 2 diabetes:** adjunct to diet\/exercise to improve glycemic control (both oral and injectable).  \n- **Cardiovascular risk reduction:** Ozempic is indicated to lower risk of major CV events in adults with T2D and established CVD; benefit supported by **SUSTAIN-6** (≈26% MACE reduction vs placebo). citeturn0search5turn0search3\n\n# How it fits into treatment plans\n- Per **ADA 2025 Standards of Care**, GLP-1 RAs (e.g., semaglutide) can be **initiated independent of metformin** when there’s ASCVD\/CKD or a strong need for weight loss\/low hypoglycemia risk; otherwise used after metformin if additional A1C lowering\/weight loss is desired. citeturn0search0turn0search4\n\n# Effect on A1C & weight (clinical takeaways)\n- GLP-1 RAs typically lower **A1C by ~1% (or more)** and cause **clinically meaningful weight loss**, which helps insulin sensitivity and cardiometabolic risk. (Summarized in ADA pharmacotherapy chapter and CVOTs.) citeturn0search0turn0search11\n\n# Safety, contraindications & precautions\n- **Common:** nausea, vomiting, diarrhea (usually lessen with gradual titration). citeturn0search5\n- **Serious warnings:**  \n  - **Thyroid C-cell tumor risk** in rodents → **contraindicated** with personal\/family history of **medullary thyroid carcinoma** or **MEN2**. citeturn0search5turn0search2  \n  - **Pancreatitis**, **gallbladder disease**, **acute kidney injury** (often dehydration-related), **diabetic retinopathy complications** (rapid A1C drops). Monitor and stop if suspected. citeturn0search5\n- **Hypoglycemia risk:** low alone; can increase when combined with **insulin** or **sulfonylureas** → consider dose reductions of those agents. citeturn0search5\n- **Not for type 1 diabetes** or DKA treatment. citeturn0search2\n- **Compounded semaglutide:** ADA recommends **against** non-FDA-approved compounded GLP-1 products due to safety\/quality concerns. citeturn0search8\n\n# Practical tips\n- **Injectable:** same day each week; if a dose is missed, follow label’s catch-up window. Rotate injection sites (abdomen, thigh, upper arm). citeturn0search5\n- **Oral:** strict admin rules (empty stomach, small water volume, 30-minute wait) are key to absorption and efficacy. citeturn0search2\n\nIf you’d like, I can tailor this to a specific scenario (e.g., with CKD, ASCVD, or concurrent insulin) or compare semaglutide to other GLP-1 RAs\/SGLT2 inhibitors using the latest ADA tables. citeturn0search0"
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": true,
+                "weight": 1,
+                "metadata": {
+                    "finish_details": {
+                        "type": "stop",
+                        "stop_tokens": [
+                            200002
+                        ]
+                    },
+                    "is_complete": true,
+                    "content_references": [
+                        {
+                            "matched_text": "citeturn0search0",
+                            "start_idx": 500,
+                            "end_idx": 519,
+                            "safe_urls": [
+                                "https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([Diabetes Journals](https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "9. Pharmacologic Approaches to Glycemic Treatment",
+                                    "url": "https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "2025 · Cited by 195 — Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2025 Available. American Diabetes Association Professional ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 0
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "Diabetes Journals"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search5",
+                            "start_idx": 751,
+                            "end_idx": 770,
+                            "safe_urls": [
+                                "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([FDA Access Data](https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Highlights of prescribing information - accessdata.fda.gov",
+                                    "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+                                    "pub_date": 1738100472,
+                                    "snippet": "The maximum recommended dosage is 2 mg once weekly. Recommended Maintenance Dosage in Patients with Type 2 Diabetes Mellitus and Chronic Kidney Disease.",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 5
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "FDA Access Data"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search2",
+                            "start_idx": 1017,
+                            "end_idx": 1036,
+                            "safe_urls": [
+                                "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([FDA Access Data](https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "[PDF] RYBELSUS (semaglutide) tablets, for oral use. - accessdata.fda.gov",
+                                    "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf?utm_source=chatgpt.com",
+                                    "pub_date": 1719241528,
+                                    "snippet": null,
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 2
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "FDA Access Data"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search5turn0search3",
+                            "start_idx": 1374,
+                            "end_idx": 1406,
+                            "safe_urls": [
+                                "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+                                "https:\/\/www.nejm.org\/doi\/full\/10.1056\/NEJMoa1607141?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([FDA Access Data](https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com), [New England Journal of Medicine](https:\/\/www.nejm.org\/doi\/full\/10.1056\/NEJMoa1607141?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Highlights of prescribing information - accessdata.fda.gov",
+                                    "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+                                    "pub_date": 1738100472,
+                                    "snippet": "The maximum recommended dosage is 2 mg once weekly. Recommended Maintenance Dosage in Patients with Type 2 Diabetes Mellitus and Chronic Kidney Disease.",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 5
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "FDA Access Data"
+                                },
+                                {
+                                    "title": "Semaglutide and Cardiovascular Outcomes in Patients ...",
+                                    "url": "https:\/\/www.nejm.org\/doi\/full\/10.1056\/NEJMoa1607141?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "by SP Marso · 2016 · Cited by 6743 — Semaglutide-treated patients had a significant 26% lower risk of the primary composite outcome of death from cardiovascular causes, nonfatal ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 3
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "New England Journal of Medicine"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search0turn0search4",
+                            "start_idx": 1718,
+                            "end_idx": 1750,
+                            "safe_urls": [
+                                "https:\/\/diabetes.org\/newsroom\/press-releases\/american-diabetes-association-releases-standards-care-diabetes-2025?utm_source=chatgpt.com",
+                                "https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([Diabetes Journals](https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com), [American Diabetes Association](https:\/\/diabetes.org\/newsroom\/press-releases\/american-diabetes-association-releases-standards-care-diabetes-2025?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "9. Pharmacologic Approaches to Glycemic Treatment",
+                                    "url": "https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "2025 · Cited by 195 — Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2025 Available. American Diabetes Association Professional ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 0
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "Diabetes Journals"
+                                },
+                                {
+                                    "title": "The American Diabetes Association Releases Standards of ...",
+                                    "url": "https:\/\/diabetes.org\/newsroom\/press-releases\/american-diabetes-association-releases-standards-care-diabetes-2025?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "Dec 9, 2024 — The Standards of Care includes strategies for diagnosing and treating diabetes in both youth and adults, methods to prevent or delay type 2 diabetes.",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 4
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "American Diabetes Association"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search0turn0search11",
+                            "start_idx": 2013,
+                            "end_idx": 2046,
+                            "safe_urls": [
+                                "https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com",
+                                "https:\/\/www.acc.org\/Latest-in-Cardiology\/Articles\/2020\/01\/02\/15\/05\/Key-CVOTs-with-Semaglutide?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([Diabetes Journals](https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com), [American College of Cardiology](https:\/\/www.acc.org\/Latest-in-Cardiology\/Articles\/2020\/01\/02\/15\/05\/Key-CVOTs-with-Semaglutide?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "9. Pharmacologic Approaches to Glycemic Treatment",
+                                    "url": "https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "2025 · Cited by 195 — Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2025 Available. American Diabetes Association Professional ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 0
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "Diabetes Journals"
+                                },
+                                {
+                                    "title": "Key CVOTs with Semaglutide: SUSTAIN 6 and PIONEER 6",
+                                    "url": "https:\/\/www.acc.org\/Latest-in-Cardiology\/Articles\/2020\/01\/02\/15\/05\/Key-CVOTs-with-Semaglutide?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "Jan 3, 2020 — SUSTAIN 6 3 and PIONEER 6, 4 investigated the effects of subcutaneous and oral semaglutide versus placebo on Major Adverse Cardiovascular Events (MACE)",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 11
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "American College of Cardiology"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search5",
+                            "start_idx": 2172,
+                            "end_idx": 2191,
+                            "safe_urls": [
+                                "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([FDA Access Data](https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Highlights of prescribing information - accessdata.fda.gov",
+                                    "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+                                    "pub_date": 1738100472,
+                                    "snippet": "The maximum recommended dosage is 2 mg once weekly. Recommended Maintenance Dosage in Patients with Type 2 Diabetes Mellitus and Chronic Kidney Disease.",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 5
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "FDA Access Data"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search5turn0search2",
+                            "start_idx": 2362,
+                            "end_idx": 2394,
+                            "safe_urls": [
+                                "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf?utm_source=chatgpt.com",
+                                "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([FDA Access Data](https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Highlights of prescribing information - accessdata.fda.gov",
+                                    "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+                                    "pub_date": 1738100472,
+                                    "snippet": "The maximum recommended dosage is 2 mg once weekly. Recommended Maintenance Dosage in Patients with Type 2 Diabetes Mellitus and Chronic Kidney Disease.",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [
+                                        {
+                                            "title": "[PDF] RYBELSUS (semaglutide) tablets, for oral use. - accessdata.fda.gov",
+                                            "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf?utm_source=chatgpt.com",
+                                            "pub_date": 1719241528,
+                                            "snippet": null,
+                                            "attribution": "FDA Access Data"
+                                        }
+                                    ],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 5
+                                        },
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 2
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "FDA Access Data"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search5",
+                            "start_idx": 2586,
+                            "end_idx": 2605,
+                            "safe_urls": [
+                                "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([FDA Access Data](https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Highlights of prescribing information - accessdata.fda.gov",
+                                    "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+                                    "pub_date": 1738100472,
+                                    "snippet": "The maximum recommended dosage is 2 mg once weekly. Recommended Maintenance Dosage in Patients with Type 2 Diabetes Mellitus and Chronic Kidney Disease.",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 5
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "FDA Access Data"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search5",
+                            "start_idx": 2751,
+                            "end_idx": 2770,
+                            "safe_urls": [
+                                "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([FDA Access Data](https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Highlights of prescribing information - accessdata.fda.gov",
+                                    "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+                                    "pub_date": 1738100472,
+                                    "snippet": "The maximum recommended dosage is 2 mg once weekly. Recommended Maintenance Dosage in Patients with Type 2 Diabetes Mellitus and Chronic Kidney Disease.",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 5
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "FDA Access Data"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search2",
+                            "start_idx": 2819,
+                            "end_idx": 2838,
+                            "safe_urls": [
+                                "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([FDA Access Data](https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "[PDF] RYBELSUS (semaglutide) tablets, for oral use. - accessdata.fda.gov",
+                                    "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf?utm_source=chatgpt.com",
+                                    "pub_date": 1719241528,
+                                    "snippet": null,
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 2
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "FDA Access Data"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search8",
+                            "start_idx": 2971,
+                            "end_idx": 2990,
+                            "safe_urls": [
+                                "https:\/\/diabetesjournals.org\/care\/article\/48\/2\/177\/157478\/Compounded-GLP-1-and-Dual-GIP-GLP-1-Receptor?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([Diabetes Journals](https:\/\/diabetesjournals.org\/care\/article\/48\/2\/177\/157478\/Compounded-GLP-1-and-Dual-GIP-GLP-1-Receptor?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Compounded GLP-1 and Dual GIP\/GLP-1 Receptor Agonists",
+                                    "url": "https:\/\/diabetesjournals.org\/care\/article\/48\/2\/177\/157478\/Compounded-GLP-1-and-Dual-GIP-GLP-1-Receptor?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "Dec 2, 2024 — The ADA recommends against using non-FDA-approved compounded GLP-1 and dual GIP\/GLP-1 RA products due to safety, quality, and effectiveness ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 8
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "Diabetes Journals"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search5",
+                            "start_idx": 3152,
+                            "end_idx": 3171,
+                            "safe_urls": [
+                                "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([FDA Access Data](https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Highlights of prescribing information - accessdata.fda.gov",
+                                    "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+                                    "pub_date": 1738100472,
+                                    "snippet": "The maximum recommended dosage is 2 mg once weekly. Recommended Maintenance Dosage in Patients with Type 2 Diabetes Mellitus and Chronic Kidney Disease.",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 5
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "FDA Access Data"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search2",
+                            "start_idx": 3291,
+                            "end_idx": 3310,
+                            "safe_urls": [
+                                "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([FDA Access Data](https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "[PDF] RYBELSUS (semaglutide) tablets, for oral use. - accessdata.fda.gov",
+                                    "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf?utm_source=chatgpt.com",
+                                    "pub_date": 1719241528,
+                                    "snippet": null,
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 2
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "FDA Access Data"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search0",
+                            "start_idx": 3503,
+                            "end_idx": 3522,
+                            "safe_urls": [
+                                "https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([Diabetes Journals](https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "9. Pharmacologic Approaches to Glycemic Treatment",
+                                    "url": "https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "2025 · Cited by 195 — Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2025 Available. American Diabetes Association Professional ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 0
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "Diabetes Journals"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": " ",
+                            "start_idx": 3522,
+                            "end_idx": 3522,
+                            "safe_urls": [],
+                            "refs": [],
+                            "alt": "",
+                            "prompt_text": null,
+                            "type": "sources_footnote",
+                            "sources": [
+                                {
+                                    "title": "9. Pharmacologic Approaches to Glycemic Treatment",
+                                    "url": "https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com",
+                                    "attribution": "Diabetes Journals"
+                                },
+                                {
+                                    "title": "Highlights of prescribing information - accessdata.fda.gov",
+                                    "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+                                    "attribution": "FDA Access Data"
+                                },
+                                {
+                                    "title": "Semaglutide and Cardiovascular Outcomes in Patients ...",
+                                    "url": "https:\/\/www.nejm.org\/doi\/full\/10.1056\/NEJMoa1607141?utm_source=chatgpt.com",
+                                    "attribution": "New England Journal of Medicine"
+                                },
+                                {
+                                    "title": "The American Diabetes Association Releases Standards of ...",
+                                    "url": "https:\/\/diabetes.org\/newsroom\/press-releases\/american-diabetes-association-releases-standards-care-diabetes-2025?utm_source=chatgpt.com",
+                                    "attribution": "American Diabetes Association"
+                                },
+                                {
+                                    "title": "Key CVOTs with Semaglutide: SUSTAIN 6 and PIONEER 6",
+                                    "url": "https:\/\/www.acc.org\/Latest-in-Cardiology\/Articles\/2020\/01\/02\/15\/05\/Key-CVOTs-with-Semaglutide?utm_source=chatgpt.com",
+                                    "attribution": "American College of Cardiology"
+                                }
+                            ],
+                            "has_images": false
+                        }
+                    ],
+                    "safe_urls": [
+                        "https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com",
+                        "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+                        "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf?utm_source=chatgpt.com",
+                        "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+                        "https:\/\/www.nejm.org\/doi\/full\/10.1056\/NEJMoa1607141?utm_source=chatgpt.com",
+                        "https:\/\/diabetes.org\/newsroom\/press-releases\/american-diabetes-association-releases-standards-care-diabetes-2025?utm_source=chatgpt.com",
+                        "https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com",
+                        "https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com",
+                        "https:\/\/www.acc.org\/Latest-in-Cardiology\/Articles\/2020\/01\/02\/15\/05\/Key-CVOTs-with-Semaglutide?utm_source=chatgpt.com",
+                        "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+                        "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf?utm_source=chatgpt.com",
+                        "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+                        "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+                        "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+                        "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf?utm_source=chatgpt.com",
+                        "https:\/\/diabetesjournals.org\/care\/article\/48\/2\/177\/157478\/Compounded-GLP-1-and-Dual-GIP-GLP-1-Receptor?utm_source=chatgpt.com",
+                        "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+                        "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf?utm_source=chatgpt.com",
+                        "https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com"
+                    ],
+                    "search_result_groups": [
+                        {
+                            "type": "search_result_group",
+                            "domain": "fda.gov",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2023\/209637s020s021lbl.pdf?utm_source=chatgpt.com",
+                                    "title": "Ozempic - accessdata.fda.gov",
+                                    "snippet": "In patients with type 2 diabetes, semaglutide exposure increases in a dose-proportional manner for once-weekly doses of 0.5 mg, 1 mg and 2 mg. Steady-state ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 1
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "fda.gov"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2017\/209637lbl.pdf?utm_source=chatgpt.com",
+                                    "title": "OZEMPIC (semaglutide) injection, for subcutaneous use",
+                                    "snippet": "In patients with type 2 diabetes mellitus, OZEMPIC produced clinically relevant reduction from baseline in. HbA1c compared with placebo. The efficacy of OZEMPIC ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 17
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "fda.gov"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.fda.gov\/drugs\/human-drug-compounding\/fda-alerts-health-care-providers-compounders-and-patients-dosing-errors-associated-compounded?utm_source=chatgpt.com",
+                                    "title": "FDA alerts health care providers, compounders of dosing ...",
+                                    "snippet": "Jul 26, 2024 — Adverse effects include severe nausea, severe vomiting and severe hypoglycemia (low blood sugar levels). A prolonged period of observation and ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 33
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "fda.gov"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "novo-pi.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.novo-pi.com\/rybelsus.pdf?utm_source=chatgpt.com",
+                                    "title": "[PDF] Rybelsus PI",
+                                    "snippet": "",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 6
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "novo-pi.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "nih.gov",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/pubmed.ncbi.nlm.nih.gov\/27633186\/?utm_source=chatgpt.com",
+                                    "title": "Semaglutide and Cardiovascular Outcomes in Patients ...",
+                                    "snippet": "by SP Marso · 2016 · Cited by 6743 — The primary composite outcome was the first occurrence of cardiovascular death, nonfatal myocardial infarction, or nonfatal stroke. We ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 7
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "nih.gov"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.ncbi.nlm.nih.gov\/books\/NBK603723\/?utm_source=chatgpt.com",
+                                    "title": "Semaglutide - StatPearls",
+                                    "snippet": "by S Kommu · 2024 · Cited by 22 — The FDA issued a postmarket drug safety alert regarding the prevalence of compounded and counterfeit preparations of semaglutide.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 21
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "nih.gov"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/pmc.ncbi.nlm.nih.gov\/articles\/PMC7064975\/?utm_source=chatgpt.com",
+                                    "title": "Semaglutide (SUSTAIN and PIONEER) reduces ...",
+                                    "snippet": "by M Husain · 2020 · Cited by 190 — SUSTAIN 6 and PIONEER 6 aimed to rule out an excess risk of CV events with semaglutide versus placebo, defined by the US Food and Drug Administration as having ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 23
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "nih.gov"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "ozempic.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.ozempic.com\/prescribing-information.html?utm_source=chatgpt.com",
+                                    "title": "Prescribing Information | Ozempic® (semaglutide) injection ...",
+                                    "snippet": "Ozempic® (semaglutide) injection 0.5 mg, 1 mg, or 2 mg is an injectable prescription medicine used: along with diet and exercise to improve blood sugar (glucose) ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 9
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "ozempic.com"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.ozempic.com\/important-safety-information.html?utm_source=chatgpt.com",
+                                    "title": "Important Safety Information",
+                                    "snippet": "The most common side effects of Ozempic may include nausea, vomiting, diarrhea, stomach (abdominal) pain, and constipation.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 25
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "ozempic.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "novomedlink.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.novomedlink.com\/diabetes\/products\/treatments\/rybelsus\/dosing-administration\/dosing-and-prescribing.html?utm_source=chatgpt.com",
+                                    "title": "Dosing & Prescribing | RYBELSUS® (semaglutide) tablets 7 mg or ...",
+                                    "snippet": "",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 10
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "novomedlink.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "uic.edu",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/dig.pharmacy.uic.edu\/faqs\/2025-2\/august-2025-faqs\/what-are-the-safety-concerns-regarding-compounded-glp-1-receptor-agonists\/?utm_source=chatgpt.com",
+                                    "title": "What Are the Safety Concerns Regarding Compounded GLP ...",
+                                    "snippet": "Aug 2, 2025 — The ADA advises considering GLP-1 receptor agonists in children aged 10 and older with T2DM and obesity who fail to meet glycemic goals on ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 12
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "uic.edu"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "drugs.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.drugs.com\/ozempic.html?utm_source=chatgpt.com",
+                                    "title": "Ozempic: Uses, Dosage, Side Effects, Warnings",
+                                    "snippet": "Jun 16, 2025 — Ozempic (semaglutide) is a prescription medication used for adults with type 2 diabetes to lower their blood sugar levels (A1C).",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 13
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "drugs.com"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.drugs.com\/dosage\/rybelsus.html?utm_source=chatgpt.com",
+                                    "title": "Rybelsus Dosage Guide - Drugs.com",
+                                    "snippet": "",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 36
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "drugs.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "rybelsus.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.rybelsus.com\/taking-rybelsus\/how-to-start-rybelsus.html?utm_source=chatgpt.com",
+                                    "title": "How to Take RYBELSUS",
+                                    "snippet": "",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 14
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "rybelsus.com"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.rybelsus.com\/prescribing-information.html?utm_source=chatgpt.com",
+                                    "title": "Prescribing Information | RYBELSUS® (semaglutide) tablets 7 mg or ...",
+                                    "snippet": "",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 18
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "rybelsus.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "oup.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/academic.oup.com\/eurheartj\/article\/45\/15\/1371\/7615664?utm_source=chatgpt.com",
+                                    "title": "Semaglutide and cardiovascular outcomes by baseline HbA1c ...",
+                                    "snippet": "by LG Mellbin · 2024 · Cited by 11 — Data were pooled for participants with type 2 diabetes and established CV disease or high CV risk in the SUSTAIN 6 and PIONEER 6 trials.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 15
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "oup.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "diabetes.org",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/diabetes.org\/newsroom\/press-releases\/american-diabetes-association-announces-statement-compounded-incretin?utm_source=chatgpt.com",
+                                    "title": "The American Diabetes Association Announces Statement ...",
+                                    "snippet": "Dec 2, 2024 — GLP-1 RA and dual GIP and GLP-1 RA medication classes are recommended by the ADA's Standards of Care in Diabetes for use in people with type 2 ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 16
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "diabetes.org"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "wikijournalclub.org",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.wikijournalclub.org\/wiki\/SUSTAIN-6?utm_source=chatgpt.com",
+                                    "title": "SUSTAIN-6",
+                                    "snippet": "Jun 19, 2025 — The primary outcome was the composite of CV mortality, nonfatal MI, or nonfatal stroke. The outcome was observed in 6.6% and 8.9% of the ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 19
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "wikijournalclub.org"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "asploro.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/asploro.com\/asjbccr\/the-latest-topics-of-standards-of-care-in-diabetes-2025-focusing-on-glp-1ra\/?utm_source=chatgpt.com",
+                                    "title": "The Latest topics of Standards of Care in Diabetes 2025",
+                                    "snippet": "by H Bando · 2024 · Cited by 1 — GLP-1RA may potentially treat conditions such as Alzheimer's disease, Parkinson's disease, MASLD, CKD, diabetes, cardiovascular disease, and obesity.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 20
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "asploro.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "diabetesjournals.org",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/diabetesjournals.org\/clinical\/article\/38\/1\/109\/32187\/Oral-Semaglutide?utm_source=chatgpt.com",
+                                    "title": "Oral Semaglutide | Clinical Diabetes",
+                                    "snippet": "",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 22
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "diabetesjournals.org"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "explorationpub.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.explorationpub.com\/Journals\/eemd\/Article\/101428?utm_source=chatgpt.com",
+                                    "title": "Updates from the 2025 American Diabetes Association ...",
+                                    "snippet": "by D Tiwari · 2025 — Given the increased incidence of heart failure (HF) in patients with diabetes, the 2025 ADA Standards of Care recommend using GLP-1 RAs in individuals with T2DM ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 24
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "explorationpub.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "mayoclinic.org",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.mayoclinic.org\/drugs-supplements\/semaglutide-oral-route\/description\/drg-20492085?utm_source=chatgpt.com",
+                                    "title": "Semaglutide (oral route) - Side effects & dosage - Mayo Clinic",
+                                    "snippet": "",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 26
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "mayoclinic.org"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.mayoclinic.org\/drugs-supplements\/semaglutide-subcutaneous-route\/description\/drg-20406730?utm_source=chatgpt.com",
+                                    "title": "Semaglutide (subcutaneous route) - Side effects & dosage",
+                                    "snippet": "Semaglutide injection is used to treat type 2 diabetes. It is used together with diet and exercise to help control your blood sugar.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 29
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "mayoclinic.org"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "clinicaltrials.gov",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.clinicaltrials.gov\/study\/NCT01720446?utm_source=chatgpt.com",
+                                    "title": "Trial to Evaluate Cardiovascular and Other Long-term ...",
+                                    "snippet": "The aim of the trial is to evaluate cardiovascular and other long-term outcomes with semaglutide in subjects with type 2 diabetes. The trial is event-driven, ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 27
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "clinicaltrials.gov"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "wafp.org",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.wafp.org\/assets\/files\/2025_ADA_Updates_All_Sections_95.pdf?utm_source=chatgpt.com",
+                                    "title": "2025 ADA Standards of Medical Care in Diabetes: Updates!",
+                                    "snippet": "... Type 1 and Type 2 diabetes. Continues to differentiate forms of diabetes ... • NEW: Benefits and Safety of GLP-1 RAs reinforced. • NEW: avoid vaping ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 28
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "wafp.org"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "bswtogether.org.uk",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/bswtogether.org.uk\/medicines\/wp-content\/uploads\/sites\/3\/2023\/03\/BSW-Prescribing-Guidance-for-oral-semaglutide-v0.2-1.pdf?utm_source=chatgpt.com",
+                                    "title": "[PDF] NHS BSW Prescribing guidance for Oral Semaglutide (Rybelsus ...",
+                                    "snippet": "",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 30
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "bswtogether.org.uk"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "nejm.org",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.nejm.org\/doi\/full\/10.1056\/NEJMoa2307563?utm_source=chatgpt.com",
+                                    "title": "Semaglutide and Cardiovascular Outcomes in Obesity ...",
+                                    "snippet": "by AM Lincoff · 2023 · Cited by 1815 — Semaglutide improved cardiovascular outcomes in this trial, whereas lifestyle and pharmacologic interventions for overweight or obesity tested in previous ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 31
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "nejm.org"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "pharmacytimes.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.pharmacytimes.com\/view\/ada-2025-advances-in-type-2-diabetes-management-with-tirzepatide?utm_source=chatgpt.com",
+                                    "title": "ADA 2025: Advances in Type 2 Diabetes Management ...",
+                                    "snippet": "Jun 23, 2025 — Animal studies have shown a dose-dependent increase in these tumors in rats treated with GLP-1 receptor agonists such as semaglutide. However, ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 32
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "pharmacytimes.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "texas.gov",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.hhs.texas.gov\/sites\/default\/files\/documents\/semaglutide-rybelsus-monograph.pdf?utm_source=chatgpt.com",
+                                    "title": "[PDF] semaglutide (Rybelsus - Texas Health and Human Services",
+                                    "snippet": "",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 34
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "texas.gov"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "medicalnewstoday.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.medicalnewstoday.com\/articles\/326252?utm_source=chatgpt.com",
+                                    "title": "Ozempic: Cost, dosage, side effects, uses, and more",
+                                    "snippet": "Common side effects of Ozempic include nausea, headache, and diarrhea, but more serious side effects such as pancreatitis and kidney injury are possible.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 35
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "medicalnewstoday.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "frontiersin.org",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.frontiersin.org\/journals\/endocrinology\/articles\/10.3389\/fendo.2021.645566\/full?utm_source=chatgpt.com",
+                                    "title": "Cardiovascular Safety and Benefits of Semaglutide in ...",
+                                    "snippet": "by MA Nauck · 2021 · Cited by 94 — Surprisingly, CV and all-cause mortality were significantly reduced by oral semaglutide in PIONEER 6. The ongoing SOUL CVOT will further inform ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 37
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "frontiersin.org"
+                                }
+                            ]
+                        }
+                    ],
+                    "citations": [],
+                    "request_id": "97c661ac7d8b5457-ATL",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "e976699e-a144-4541-a31c-ff8d15b96f90",
+                    "timestamp_": "absolute",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": "final"
+            },
+            "parent": "e976699e-a144-4541-a31c-ff8d15b96f90",
+            "children": []
+        }
+    },
+    "moderation_results": [],
+    "current_node": "9ff4c8ec-41ff-430a-bed2-69a0f4515800",
+    "plugin_ids": null,
+    "conversation_id": "68c010f5-3378-832d-808e-67e525a2919a",
+    "conversation_template_id": "g-p-68cba3ab7eac8191b45ec9655216fbd7",
+    "gizmo_id": "g-p-68cba3ab7eac8191b45ec9655216fbd7",
+    "gizmo_type": "snorlax",
+    "is_archived": false,
+    "is_starred": null,
+    "safe_urls": [
+        "https:\/\/docs.google.com\/presentation\/d\/11n0Wjuik6jHQFe-gRLV2LOg7CQHGf-CM_JX0Y-Io_RI\/edit#slide=id.g2ef8699e0eb_48_36",
+        "https:\/\/www.nejm.org\/doi\/full\/10.1056\/NEJMoa1607141?utm_source=chatgpt.com",
+        "https:\/\/www.openai.com",
+        "https:\/\/docs.google.com\/spreadsheets\/d\/1HmkfBJulhu50S6L9wuRsaVC9VL1LpbxpmgRzn33SxsQ\/edit?gid=676408861#gid=676408861",
+        "https:\/\/docs.google.com\/document\/d\/1WF0NB9fnxhDPEi_arGSp18Kev9KXdoX-IePIE8KJgCQ\/edit?tab=t.0#heading=h.e3mmf6q9l82j",
+        "https:\/\/diabetes.org\/newsroom\/press-releases\/american-diabetes-association-releases-standards-care-diabetes-2025?utm_source=chatgpt.com",
+        "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2025\/209637s025lbl.pdf?utm_source=chatgpt.com",
+        "https:\/\/www.notion.so\/9162f50b62b080124ca4db47ba6f2e54",
+        "https:\/\/diabetesjournals.org\/care\/article\/48\/2\/177\/157478\/Compounded-GLP-1-and-Dual-GIP-GLP-1-Receptor?utm_source=chatgpt.com",
+        "https:\/\/docs.google.com\/document\/d\/1WF0NB9fnxhDPEi_arGSp18Kev9KXdoX-IePIE8KJgCQ",
+        "https:\/\/www.accessdata.fda.gov\/drugsatfda_docs\/label\/2024\/213051s018lbl.pdf?utm_source=chatgpt.com",
+        "https:\/\/diabetesjournals.org\/care\/article\/48\/Supplement_1\/S181\/157569\/9-Pharmacologic-Approaches-to-Glycemic-Treatment?utm_source=chatgpt.com",
+        "https:\/\/www.acc.org\/Latest-in-Cardiology\/Articles\/2020\/01\/02\/15\/05\/Key-CVOTs-with-Semaglutide?utm_source=chatgpt.com"
+    ],
+    "blocked_urls": [],
+    "default_model_slug": "gpt-5-thinking",
+    "conversation_origin": null,
+    "voice": null,
+    "async_status": null,
+    "disabled_tool_ids": [],
+    "is_do_not_remember": false,
+    "memory_scope": "global_enabled",
+    "sugar_item_id": null,
+    "sugar_item_visible": false,
+    "is_study_mode": false,
+    "owner": null
+}

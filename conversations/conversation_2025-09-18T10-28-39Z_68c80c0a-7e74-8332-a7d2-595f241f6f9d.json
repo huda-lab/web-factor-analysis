@@ -1,0 +1,2011 @@
+{
+    "title": "Abu Dhabi news roundup",
+    "create_time": 1757940855.497935,
+    "update_time": 1758180354.698157,
+    "mapping": {
+        "client-created-root": {
+            "id": "client-created-root",
+            "message": null,
+            "parent": null,
+            "children": [
+                "74b64990-7636-4f12-bea3-f1050325f81f"
+            ]
+        },
+        "74b64990-7636-4f12-bea3-f1050325f81f": {
+            "id": "74b64990-7636-4f12-bea3-f1050325f81f",
+            "message": {
+                "id": "74b64990-7636-4f12-bea3-f1050325f81f",
+                "author": {
+                    "role": "system",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": null,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": true,
+                "weight": 0,
+                "metadata": {
+                    "is_visually_hidden_from_conversation": true
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "client-created-root",
+            "children": [
+                "09af840c-49d7-4098-b801-a356df6383a3"
+            ]
+        },
+        "09af840c-49d7-4098-b801-a356df6383a3": {
+            "id": "09af840c-49d7-4098-b801-a356df6383a3",
+            "message": {
+                "id": "09af840c-49d7-4098-b801-a356df6383a3",
+                "author": {
+                    "role": "system",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": null,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": true,
+                "weight": 0,
+                "metadata": {
+                    "rebase_developer_message": true,
+                    "is_visually_hidden_from_conversation": true
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "74b64990-7636-4f12-bea3-f1050325f81f",
+            "children": [
+                "8439633b-47aa-4ca0-bdc7-e8fd5ee4372a"
+            ]
+        },
+        "8439633b-47aa-4ca0-bdc7-e8fd5ee4372a": {
+            "id": "8439633b-47aa-4ca0-bdc7-e8fd5ee4372a",
+            "message": {
+                "id": "8439633b-47aa-4ca0-bdc7-e8fd5ee4372a",
+                "author": {
+                    "role": "system",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": null,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                    "is_contextual_answers_system_message": true,
+                    "contextual_answers_message_type": "identity_prompt",
+                    "is_visually_hidden_from_conversation": true
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "09af840c-49d7-4098-b801-a356df6383a3",
+            "children": [
+                "89a4cda1-8c08-4cae-8ad5-4829952b8127"
+            ]
+        },
+        "89a4cda1-8c08-4cae-8ad5-4829952b8127": {
+            "id": "89a4cda1-8c08-4cae-8ad5-4829952b8127",
+            "message": {
+                "id": "89a4cda1-8c08-4cae-8ad5-4829952b8127",
+                "author": {
+                    "role": "user",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1757940854.822,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "Give me the latest news in abu dhabi. I know that there are news about petrol and construction, and I know recently the media spread disinformation everywhere and almost here are are related to possible political problems."
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                    "developer_mode_connector_ids": [],
+                    "selected_sources": [],
+                    "selected_github_repos": [],
+                    "serialization_metadata": {
+                        "custom_symbol_offsets": []
+                    },
+                    "request_id": "97f845875dbe0d5c-DXB",
+                    "message_source": null,
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "8439633b-47aa-4ca0-bdc7-e8fd5ee4372a",
+            "children": [
+                "674202aa-0a5f-43c2-8bf7-6063ca6cc2a7"
+            ]
+        },
+        "674202aa-0a5f-43c2-8bf7-6063ca6cc2a7": {
+            "id": "674202aa-0a5f-43c2-8bf7-6063ca6cc2a7",
+            "message": {
+                "id": "674202aa-0a5f-43c2-8bf7-6063ca6cc2a7",
+                "author": {
+                    "role": "system",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1757940855.3015363,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                    "is_contextual_answers_system_message": true,
+                    "is_visually_hidden_from_conversation": true,
+                    "command": "prompt",
+                    "contextual_answers_message_type": "sources_and_filters_prompt",
+                    "request_id": "97f845875dbe0d5c-DXB",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "89a4cda1-8c08-4cae-8ad5-4829952b8127",
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "89a4cda1-8c08-4cae-8ad5-4829952b8127",
+            "children": [
+                "e5fba4a7-2ce0-4468-a34e-f3173a3f40d3"
+            ]
+        },
+        "e5fba4a7-2ce0-4468-a34e-f3173a3f40d3": {
+            "id": "e5fba4a7-2ce0-4468-a34e-f3173a3f40d3",
+            "message": {
+                "id": "e5fba4a7-2ce0-4468-a34e-f3173a3f40d3",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1757940855.7588985,
+                "update_time": null,
+                "content": {
+                    "content_type": "model_editable_context",
+                    "model_set_context": "",
+                    "repository": null,
+                    "repo_summary": null,
+                    "structured_context": null
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                    "request_id": "97f845875dbe0d5c-DXB",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "674202aa-0a5f-43c2-8bf7-6063ca6cc2a7",
+                    "timestamp_": "absolute",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "674202aa-0a5f-43c2-8bf7-6063ca6cc2a7",
+            "children": [
+                "55700b11-4d9d-4da4-857b-6ed725b033a8"
+            ]
+        },
+        "55700b11-4d9d-4da4-857b-6ed725b033a8": {
+            "id": "55700b11-4d9d-4da4-857b-6ed725b033a8",
+            "message": {
+                "id": "55700b11-4d9d-4da4-857b-6ed725b033a8",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1757940856.535922,
+                "update_time": null,
+                "content": {
+                    "content_type": "thoughts",
+                    "thoughts": [
+                        {
+                            "summary": "Searching for Abu Dhabi news",
+                            "content": "I need to gather recent news on topics like petrol prices, construction, and disinformation in Abu Dhabi, and check for political matters linked to these. I'll use searches for key areas like September 2025 petrol prices, ADNOC updates, and ongoing construction projects. Some sources may be cited, though no navlist here.",
+                            "chunks": [],
+                            "finished": true
+                        }
+                    ],
+                    "source_analysis_msg_id": "e1ef15d3-150d-4fe1-8e63-d1280446a010"
+                },
+                "status": "finished_successfully",
+                "end_turn": false,
+                "weight": 1,
+                "metadata": {
+                    "reasoning_status": "is_reasoning",
+                    "citations": [],
+                    "content_references": [],
+                    "classifier_response": "default",
+                    "skip_reasoning_title": "Skip",
+                    "request_id": "97f845875dbe0d5c-DXB",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "e5fba4a7-2ce0-4468-a34e-f3173a3f40d3",
+                    "timestamp_": "absolute",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "e5fba4a7-2ce0-4468-a34e-f3173a3f40d3",
+            "children": [
+                "aeec5d2b-761b-493d-b308-b1f7d48a84bd"
+            ]
+        },
+        "aeec5d2b-761b-493d-b308-b1f7d48a84bd": {
+            "id": "aeec5d2b-761b-493d-b308-b1f7d48a84bd",
+            "message": {
+                "id": "aeec5d2b-761b-493d-b308-b1f7d48a84bd",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1757940855.295248,
+                "update_time": null,
+                "content": {
+                    "content_type": "code",
+                    "language": "unknown",
+                    "response_format_name": null,
+                    "text": "{\"search_query\": [{\"q\": \"Abu Dhabi latest news September 2025\"}, {\"q\": \"UAE petrol price September 2025 Abu Dhabi Fuel Price Committee\"}, {\"q\": \"Abu Dhabi construction news September 2025\"}, {\"q\": \"Abu Dhabi disinformation political rumors UAE 2025\"}], \"response_length\": \"short\"}"
+                },
+                "status": "finished_successfully",
+                "end_turn": false,
+                "weight": 1,
+                "metadata": {
+                    "finish_details": {
+                        "type": "stop",
+                        "stop_tokens": [
+                            200012
+                        ]
+                    },
+                    "is_complete": true,
+                    "citations": [],
+                    "content_references": [],
+                    "reasoning_status": "is_reasoning",
+                    "search_queries": [
+                        {
+                            "type": "search",
+                            "q": "Abu Dhabi latest news September 2025"
+                        },
+                        {
+                            "type": "search",
+                            "q": "UAE petrol price September 2025 Abu Dhabi Fuel Price Committee"
+                        },
+                        {
+                            "type": "search",
+                            "q": "Abu Dhabi construction news September 2025"
+                        },
+                        {
+                            "type": "search",
+                            "q": "Abu Dhabi disinformation political rumors UAE 2025"
+                        }
+                    ],
+                    "search_display_string": "Searching the web...",
+                    "searched_display_string": "Searched the web...",
+                    "reasoning_title": "Searching for recent Abu Dhabi news and updates",
+                    "classifier_response": "default",
+                    "request_id": "97f845875dbe0d5c-DXB",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "55700b11-4d9d-4da4-857b-6ed725b033a8",
+                    "timestamp_": "absolute",
+                    "model_switcher_deny": []
+                },
+                "recipient": "web.run",
+                "channel": null
+            },
+            "parent": "55700b11-4d9d-4da4-857b-6ed725b033a8",
+            "children": [
+                "faed1da4-9f6e-4941-8da2-0b6e69d21925"
+            ]
+        },
+        "faed1da4-9f6e-4941-8da2-0b6e69d21925": {
+            "id": "faed1da4-9f6e-4941-8da2-0b6e69d21925",
+            "message": {
+                "id": "faed1da4-9f6e-4941-8da2-0b6e69d21925",
+                "author": {
+                    "role": "tool",
+                    "name": "web.run",
+                    "metadata": {
+                        "real_author": "tool:web.run"
+                    }
+                },
+                "create_time": 1757940875.999203,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                    "search_model_queries": {
+                        "type": "search_model_queries",
+                        "queries": [
+                            "Abu Dhabi latest news September 2025",
+                            "UAE petrol price September 2025 Abu Dhabi Fuel Price Committee",
+                            "Abu Dhabi construction news September 2025",
+                            "Abu Dhabi disinformation political rumors UAE 2025"
+                        ]
+                    },
+                    "reasoning_status": "is_reasoning",
+                    "reasoning_title": "Searching for recent Abu Dhabi news and updates",
+                    "classifier_response": "default",
+                    "request_id": "97f845875dbe0d5c-DXB",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "aeec5d2b-761b-493d-b308-b1f7d48a84bd",
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "aeec5d2b-761b-493d-b308-b1f7d48a84bd",
+            "children": [
+                "f85a72b2-91b8-4cd9-8a8e-a4b5671c17a0"
+            ]
+        },
+        "f85a72b2-91b8-4cd9-8a8e-a4b5671c17a0": {
+            "id": "f85a72b2-91b8-4cd9-8a8e-a4b5671c17a0",
+            "message": {
+                "id": "f85a72b2-91b8-4cd9-8a8e-a4b5671c17a0",
+                "author": {
+                    "role": "tool",
+                    "name": "web.run",
+                    "metadata": {
+                        "real_author": "tool:web.run"
+                    }
+                },
+                "create_time": 1757940875.9620638,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                    "search_result_groups": [
+                        {
+                            "type": "search_result_group",
+                            "domain": "timesofindia.indiatimes.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/timesofindia.indiatimes.com\/world\/middle-east\/abu-dhabi-court-sentences-eight-in-online-child-sexual-exploitation-case\/articleshow\/123898446.cms",
+                                    "title": "Abu Dhabi court sentences eight in online child sexual exploitation case",
+                                    "snippet": "Eight individuals have been sentenced to prison by an Abu Dhabi court for their involvement in an online child sexual exploitation case. The group used gaming and social media platforms to lure minors, distributing indecent content and using digital tools to target vulnerable children. The court imposed jail sentences, substantial fines, technology use restrictions, and deportation orders for the convicted foreign nationals. Authorities built the case using digital forensics and investigative techniques, underscoring the UAE’s commitment to combating cybercrimes and protecting children online. The case draws attention to the increasing risks children face in digital spaces and demonstrates the UAE's active international role in child protection efforts. The public has been urged to remain vigilant about online threats and to report any suspicious behavior.",
+                                    "ref_id": null,
+                                    "pub_date": 1757932294,
+                                    "attribution": "timesofindia.indiatimes.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "m.economictimes.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/m.economictimes.com\/news\/sports\/united-arab-emirates-vs-oman-t20-match-asia-cup-2025-live-streaming-when-where-and-how-to-watch-uae-vs-oma-cricket-match-coverage-live-tv-online-your-country\/articleshow\/123899348.cms",
+                                    "title": "UAE vs Oman Asia Cup 2025 T20 match live streaming: When and where to watch the virtual knockout encounter?",
+                                    "snippet": "The Asia Cup 2025 T20 match between United Arab Emirates (UAE) and Oman is a crucial virtual knockout encounter, as both teams lost their opening matches. The match is scheduled to take place at Sheikh Zayed Stadium in Abu Dhabi on Monday at 5:30 PM IST. This fixture holds high stakes, with the loser likely to be eliminated from the tournament. The live broadcast and streaming details are provided for viewers to watch the game on TV and online platforms.",
+                                    "ref_id": null,
+                                    "pub_date": 1757933392,
+                                    "attribution": "m.economictimes.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.reuters.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.reuters.com\/world\/middle-east\/gulf-bourses-mixed-early-trade-ahead-feds-decision-2025-09-15\/",
+                                    "title": "Gulf bourses mixed in early trade ahead of Fed's decision",
+                                    "snippet": "Stock markets in the Gulf showed mixed movements in early trade on September 15, 2025, as investors awaited the U.S. Federal Reserve's policy decision, widely expected to result in a 25 basis-point rate cut, lowering the rate to 4.0–4.25%. This anticipated easing, with only a 4% chance of a 50 basis-point cut, significantly impacts Gulf markets due to the region’s currency peg to the U.S. dollar.\n\nDubai’s stock index rose 0.2%, supported by gains in consumer staples and utilities, with Gulf Navigation and Tecom Group gaining 3.2% and 1.8% respectively, although shares in telecom provider du fell 1% following a major stake sale worth 3.15 billion dirhams by shareholder Mamoura Diversified Global Holding.\n\nAbu Dhabi’s index gained 0.3%, as Abu Dhabi Islamic Bank and Multiply Group posted gains, though Space42 declined 1%. Saudi Arabia’s index dipped 0.2%, dragged by financial and healthcare sectors, notably Al Rajhi Bank, which dropped 1.8% after announcing a reduced interim dividend. On the upside, Fawaz Abdulaziz Al Hokair & Co surged 6% after securing a 1.6 billion riyal banking facility. Qatar’s benchmark index was flat.",
+                                    "ref_id": null,
+                                    "pub_date": 1757924501,
+                                    "attribution": "www.reuters.com"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.reuters.com\/business\/energy\/uaes-adnoc-announces-internal-transfers-shareholdings-its-listed-companies-xrg-2025-09-11\/",
+                                    "title": "UAE's Adnoc announces internal transfers of shareholdings in its listed companies to XRG",
+                                    "snippet": "On September 11, 2025, the Abu Dhabi National Oil Company (ADNOC) announced a strategic internal restructuring involving the transfer of its equity stakes in its publicly listed companies to XRG, its international investment arm. Despite this shift, ADNOC emphasized that it will retain full control and ultimate ownership of these assets through its 100% ownership of XRG. The move aligns with ADNOC’s broader focus on long-term value creation and maintaining capital discipline. This internal transfer is part of ADNOC’s efforts to streamline its investment structure and optimize asset management.",
+                                    "ref_id": null,
+                                    "pub_date": 1757593583,
+                                    "attribution": "www.reuters.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.bloomberg.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.bloomberg.com\/news\/newsletters\/2025-09-15\/how-saudi-arabia-uae-abu-dhabi-kuwait-qatar-wealth-funds-run-your-day",
+                                    "title": "How Middle Eastern Sovereign Wealth Funds Quietly Run ...",
+                                    "snippet": "43 minutes ago — Abu Dhabi's Mubadala Investment splashed out $29 billion alone. Here's a look at a sampling of the vast array of investments from these ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "www.bloomberg.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "gulfnews.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/gulfnews.com\/business\/energy\/uae-petrol-diesel-prices-for-september-2025-announced-1.500250892",
+                                    "title": "UAE petrol, diesel prices for September 2025 announced",
+                                    "snippet": "Aug 31, 2025 — Super 98 petrol will cost Dh2.70 a litre, compared to Dh2.69 a litre in August, while Special 95 will cost Dh2.58 a litre, compared to Dh2.57 ...",
+                                    "ref_id": null,
+                                    "pub_date": 1756621039,
+                                    "attribution": "gulfnews.com"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/gulfnews.com\/uae\/crime\/abu-dhabi-authorities-crack-down-on-fake-news-and-rumours-online-1.500133983",
+                                    "title": "Abu Dhabi cracks down on fake news and rumours online",
+                                    "snippet": "May 20, 2025 — Abu Dhabi cracks down on fake news and rumours online. Offenders face up to two years in prison and Dh200,000 fine under UAE Cybercrime Law.",
+                                    "ref_id": null,
+                                    "pub_date": 1747746490,
+                                    "attribution": "gulfnews.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.wam.ae",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.wam.ae\/en\/article\/blnlbvv-adx-welcomes-listing-orascom-construction",
+                                    "title": "ADX welcomes listing of Orascom Construction",
+                                    "snippet": "4 days ago — ABU DHABI, 11th September, 2025 (WAM) -- The Abu Dhabi Securities Exchange (ADX) today welcomed the listing of Orascom Construction, ...",
+                                    "ref_id": null,
+                                    "pub_date": 1757598009,
+                                    "attribution": "www.wam.ae"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.wam.ae\/en\/article\/blpdmos-abu-dhabi-delegation-promote-trade-investment",
+                                    "title": "Abu Dhabi delegation to promote trade, investment partnership with Germany",
+                                    "snippet": "",
+                                    "ref_id": null,
+                                    "pub_date": 1757854935,
+                                    "attribution": "www.wam.ae"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.wam.ae\/en\/article\/blpdmov-abu-dhabi-hosts-congress-arabic-creative",
+                                    "title": "Abu Dhabi hosts Congress of Arabic & Creative Industries 2025",
+                                    "snippet": "",
+                                    "ref_id": null,
+                                    "pub_date": 1757858034,
+                                    "attribution": "www.wam.ae"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.wam.ae\/en\/article\/bj53gbh-abu-dhabi-police-warn-against-rumours",
+                                    "title": "Abu Dhabi Police warn against rumours, misinformation",
+                                    "snippet": "Abu Dhabi Police have urged the public to rely on credible media sources and avoid spreading rumours and misinformation.",
+                                    "ref_id": null,
+                                    "pub_date": 1744482115,
+                                    "attribution": "www.wam.ae"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.lexismiddleeast.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.lexismiddleeast.com\/news\/2025-05-21_19",
+                                    "title": "Abu Dhabi: Strict Penalties for Spreading Fake News",
+                                    "snippet": "May 21, 2025 — This law prohibits the dissemination of misleading information and fake news, particularly content that contradicts public interest, ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "www.lexismiddleeast.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.khaleejtimes.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.khaleejtimes.com\/business\/active-development-projects-value-exceeds-758-billion-in-abu-dhabi",
+                                    "title": "Active development projects' value exceeds $758 billion in ...",
+                                    "snippet": "21 hours ago — The value of active urban development projects in Abu Dhabi has topped $758.79 billion, according to industry reports.",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "www.khaleejtimes.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "en.emirates7.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/en.emirates7.com\/article\/6564",
+                                    "title": "UAE Fuel Price Committee announces prices for September",
+                                    "snippet": "Aug 31, 2025 — The UAE Fuel Price Committee approved the fuel prices for September 2025 as follows: - Diesel: AED2.66 per litre. - Super 98 : AED2.70 per.",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "en.emirates7.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.zawya.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.zawya.com\/en\/press-release\/events-and-conferences\/active-development-projects-value-exceeds-758bln-in-abu-dhabi-as-intl-real-estate-and-investment-show-2025-starts-on-a-high-note-hbx0e5qk",
+                                    "title": "Active development projects' value exceeds $758bln in ...",
+                                    "snippet": "1 day ago — Active development projects' value exceeds $758bln in Abu Dhabi as Int'l Real Estate & Investment Show 2025 starts on a high note · The total ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "www.zawya.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.timeoutdubai.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.timeoutdubai.com\/news\/uae-petrol-price-september-2025",
+                                    "title": "UAE petrol prices 2025: September rates announced",
+                                    "snippet": "Sep 1, 2025 — UAE petrol prices September 2025 ; Super 98 petrol: Dhs2.70 per litre, compared to Dhs2.69 per litre last month ; Super 95 petrol: Dhs2.58 per ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "www.timeoutdubai.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.finews.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.finews.com\/news\/english-news\/69299-abu-dhabi-adx-celebrates-listing-of-orascom-construction-stock-exchange-finance-place-middle-east-sawiris",
+                                    "title": "Solid trading debut for Orascom Construction at Abu Dhabi ...",
+                                    "snippet": "3 days ago — Monday, 15 September 2025. Solid trading debut for Orascom Construction at Abu Dhabi market ADX. On its first trading day on the Abu Dhabi ...",
+                                    "ref_id": null,
+                                    "pub_date": 1757663799,
+                                    "attribution": "www.finews.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.mofa.gov.ae",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.mofa.gov.ae\/en\/MediaHub\/News\/2025\/8\/10\/10-8-2025-UAE-Sudan",
+                                    "title": "UAE Urges End to Sudan Conflict Amid Escalating ...",
+                                    "snippet": "UAE Urges End to Sudan Conflict Amid Escalating Disinformation from Port Sudan Authority. Sun 10\/8\/2025. General. The United Arab Emirates stands with the ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "www.mofa.gov.ae"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "whatson.ae",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/whatson.ae\/2025\/09\/miami-vibes-food-festival-returns-to-abu-dhabi-this-september\/",
+                                    "title": "Miami Vibes food festival returns to Abu Dhabi this September",
+                                    "snippet": "",
+                                    "ref_id": null,
+                                    "pub_date": 1757918765,
+                                    "attribution": "whatson.ae"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.facebook.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.facebook.com\/AletihadEn\/posts\/the-uae-fuel-price-committee-on-sunday-approved-the-fuel-prices-for-september-20\/634789443013449\/",
+                                    "title": "The UAE Fuel Price Committee on Sunday approved ...",
+                                    "snippet": "The UAE Fuel Price Committee on Sunday approved the fuel prices for September 2025.",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "www.facebook.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "elevatorworld.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/elevatorworld.com\/news\/daily-news\/abu-dhabi-to-sign-us12-8-billion-in-infrastructure-projects\/",
+                                    "title": "Abu Dhabi To Sign US$12.8 Billion in Infrastructure Projects",
+                                    "snippet": "Aug 18, 2025 — Abu Dhabi aims to sign Dh47 billion (US$12.8 billion) worth of infrastructure projects with the private sector in the second half of 2025, ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "elevatorworld.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.dubaieye1038.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.dubaieye1038.com\/news\/local\/abu-dhabi-police-warns-against-spreading-misinformation\/",
+                                    "title": "Abu Dhabi Police warns against spreading misinformation",
+                                    "snippet": "Apr 13, 2025 — Abu Dhabi Police has urged the public to rely only on credible media sources and avoid spreading rumours and misinformation.",
+                                    "ref_id": null,
+                                    "pub_date": 1744524921,
+                                    "attribution": "www.dubaieye1038.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.mediaoffice.abudhabi",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.mediaoffice.abudhabi\/en\/arts-culture\/department-of-culture-and-tourism-abu-dhabi-to-host-seminar-series-on-preserving-cultural-and-natural-heritage\/",
+                                    "title": "Department of Culture and Tourism – Abu Dhabi to host ...",
+                                    "snippet": "5 hours ago — Launching in September 2025, the programme underscores DCT Abu Dhabi's long-standing commitment to promote cultural sustainability, protect ...",
+                                    "ref_id": null,
+                                    "pub_date": 1757937339.062,
+                                    "attribution": "www.mediaoffice.abudhabi"
+                                }
+                            ]
+                        }
+                    ],
+                    "debug_sonic_thread_id": "thread_68c80c8c05d8832195f44153b18d7f18",
+                    "reasoning_status": "is_reasoning",
+                    "reasoning_title": "Searching for recent Abu Dhabi news and updates",
+                    "classifier_response": "default",
+                    "request_id": "97f845875dbe0d5c-DXB",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "faed1da4-9f6e-4941-8da2-0b6e69d21925",
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "faed1da4-9f6e-4941-8da2-0b6e69d21925",
+            "children": [
+                "6cb243d5-dc40-4146-a50e-f12dbbbafcf1"
+            ]
+        },
+        "6cb243d5-dc40-4146-a50e-f12dbbbafcf1": {
+            "id": "6cb243d5-dc40-4146-a50e-f12dbbbafcf1",
+            "message": {
+                "id": "6cb243d5-dc40-4146-a50e-f12dbbbafcf1",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1757940890.591753,
+                "update_time": null,
+                "content": {
+                    "content_type": "thoughts",
+                    "thoughts": [
+                        {
+                            "summary": "Summarizing Abu Dhabi news",
+                            "content": "I need to cover topics like September 2025 petrol prices, major construction projects, ADNOC restructuring, and disinformation crackdowns. I'll summarize key points in sections, providing concise bullet points with dates. It's crucial to avoid political claims and urge relying on official sources on disinformation, with citations after each section.",
+                            "chunks": [],
+                            "finished": true
+                        }
+                    ],
+                    "source_analysis_msg_id": "ea96f2ce-1c6a-4d39-bde2-7b66df7d5ef0"
+                },
+                "status": "finished_successfully",
+                "end_turn": false,
+                "weight": 1,
+                "metadata": {
+                    "reasoning_status": "is_reasoning",
+                    "citations": [],
+                    "content_references": [],
+                    "classifier_response": "default",
+                    "skip_reasoning_title": "Skip",
+                    "request_id": "97f845875dbe0d5c-DXB",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "f85a72b2-91b8-4cd9-8a8e-a4b5671c17a0",
+                    "timestamp_": "absolute",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "f85a72b2-91b8-4cd9-8a8e-a4b5671c17a0",
+            "children": [
+                "f56ae0d3-5af3-4332-a747-ba93558cdeb9"
+            ]
+        },
+        "f56ae0d3-5af3-4332-a747-ba93558cdeb9": {
+            "id": "f56ae0d3-5af3-4332-a747-ba93558cdeb9",
+            "message": {
+                "id": "f56ae0d3-5af3-4332-a747-ba93558cdeb9",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1757940893.750317,
+                "update_time": null,
+                "content": {
+                    "content_type": "reasoning_recap",
+                    "content": "Thought for 37s"
+                },
+                "status": "finished_successfully",
+                "end_turn": false,
+                "weight": 1,
+                "metadata": {
+                    "reasoning_status": "reasoning_ended",
+                    "finished_duration_sec": 37,
+                    "request_id": "97f845875dbe0d5c-DXB",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "6cb243d5-dc40-4146-a50e-f12dbbbafcf1",
+                    "timestamp_": "absolute",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "6cb243d5-dc40-4146-a50e-f12dbbbafcf1",
+            "children": [
+                "be1eecac-cd9b-409b-85d9-7f6f8aee07de"
+            ]
+        },
+        "be1eecac-cd9b-409b-85d9-7f6f8aee07de": {
+            "id": "be1eecac-cd9b-409b-85d9-7f6f8aee07de",
+            "message": {
+                "id": "be1eecac-cd9b-409b-85d9-7f6f8aee07de",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1757940877.195808,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "Here’s a quick, trusted roundup from **Abu Dhabi (Mon, Sep 15, 2025)**—with the petrol, construction, and “disinformation” angles you mentioned:\n\n### Petrol & cost of living\n- **September fuel prices (UAE-wide, incl. Abu Dhabi):** Super 98 **Dhs2.70\/L**, Special 95 **Dhs2.58\/L**, E-Plus 91 **Dhs2.51\/L**, Diesel **Dhs2.66\/L**. That’s a **1-fil uptick** from August on Super 98 and Special 95. citeturn0search1turn0search9turn0search12\n\n### Construction, markets & the real economy\n- **Orascom Construction listed on ADX** last week; the exchange welcomed the debut and coverage notes a strong first day—another sign of Abu Dhabi’s draw for regional builders and infra plays. citeturn0search2turn0search13  \n- **Active development projects** in Abu Dhabi are now estimated at **~$758.8bn** in value, per recent industry tallies tied to the International Real Estate & Investment Show. citeturn0search6turn0search10  \n- **Markets today:** Abu Dhabi’s main index **nudged up ~0.3%**, with gains in Abu Dhabi Islamic Bank and Multiply Group; regional trading is keyed to the coming U.S. Fed move. citeturn0news41\n\n### Energy & corporate moves\n- **ADNOC** said on **Sep 11** it’s **internally transferring** shareholdings in its listed units to **XRG**, its investment arm—**control remains with ADNOC** via 100% ownership of XRG. It’s a structural\/portfolio move rather than a change in underlying assets. citeturn0news42\n\n### Misinformation \/ rumours (your point)\n- Authorities continue to **warn against online rumours** and stress using credible sources; earlier guidance from Abu Dhabi Police and federal legal updates outline **fines and possible jail** under UAE cybercrime provisions for spreading false news. citeturn0search11turn0search7turn0search3  \n- Relatedly, the UAE has **called out disinformation in regional contexts** (e.g., Sudan coverage) while urging de-escalation—useful backdrop for judging viral claims. citeturn0search14\n\n### What else is happening today\n- **Trade & culture:** An Abu Dhabi delegation is pushing **Germany investment ties**; the **Congress of Arabic & Creative Industries 2025** opened at Yas Island; DCT Abu Dhabi launched a **heritage seminar series**. citeturn0search4turn0search8turn0search19  \n- **Sport:** Asia Cup T20—**UAE vs Oman** at Sheikh Zayed Stadium this evening (virtual knockout). citeturn0news40\n\nIf you want, I can also keep a running tab of **monthly petrol price changes** and **major construction\/ADX listings** specific to Abu Dhabi."
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": true,
+                "weight": 1,
+                "metadata": {
+                    "finish_details": {
+                        "type": "stop",
+                        "stop_tokens": [
+                            200002
+                        ]
+                    },
+                    "is_complete": true,
+                    "content_references": [
+                        {
+                            "matched_text": "citeturn0search1turn0search9turn0search12",
+                            "start_idx": 394,
+                            "end_idx": 440,
+                            "safe_urls": [
+                                "https:\/\/en.emirates7.com\/article\/6564?utm_source=chatgpt.com",
+                                "https:\/\/gulfnews.com\/business\/energy\/uae-petrol-diesel-prices-for-september-2025-announced-1.500250892?utm_source=chatgpt.com",
+                                "https:\/\/www.timeoutdubai.com\/news\/uae-petrol-price-september-2025?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([gulfnews.com](https:\/\/gulfnews.com\/business\/energy\/uae-petrol-diesel-prices-for-september-2025-announced-1.500250892?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "UAE petrol, diesel prices for September 2025 announced",
+                                    "url": "https:\/\/gulfnews.com\/business\/energy\/uae-petrol-diesel-prices-for-september-2025-announced-1.500250892?utm_source=chatgpt.com",
+                                    "pub_date": 1756621039,
+                                    "snippet": "Aug 31, 2025 — Super 98 petrol will cost Dh2.70 a litre, compared to Dh2.69 a litre in August, while Special 95 will cost Dh2.58 a litre, compared to Dh2.57 ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [
+                                        {
+                                            "title": "UAE Fuel Price Committee announces prices for September",
+                                            "url": "https:\/\/en.emirates7.com\/article\/6564?utm_source=chatgpt.com",
+                                            "pub_date": null,
+                                            "snippet": "Aug 31, 2025 — The UAE Fuel Price Committee approved the fuel prices for September 2025 as follows: - Diesel: AED2.66 per litre. - Super 98 : AED2.70 per.",
+                                            "attribution": "emirates7"
+                                        },
+                                        {
+                                            "title": "UAE petrol prices 2025: September rates announced",
+                                            "url": "https:\/\/www.timeoutdubai.com\/news\/uae-petrol-price-september-2025?utm_source=chatgpt.com",
+                                            "pub_date": null,
+                                            "snippet": "Sep 1, 2025 — UAE petrol prices September 2025 ; Super 98 petrol: Dhs2.70 per litre, compared to Dhs2.69 per litre last month ; Super 95 petrol: Dhs2.58 per ...",
+                                            "attribution": "timeoutdubai.com"
+                                        }
+                                    ],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 1
+                                        },
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 9
+                                        },
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 12
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "gulfnews.com"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search2turn0search13",
+                            "start_idx": 681,
+                            "end_idx": 714,
+                            "safe_urls": [
+                                "https:\/\/www.finews.com\/news\/english-news\/69299-abu-dhabi-adx-celebrates-listing-of-orascom-construction-stock-exchange-finance-place-middle-east-sawiris?utm_source=chatgpt.com",
+                                "https:\/\/www.wam.ae\/en\/article\/blnlbvv-adx-welcomes-listing-orascom-construction?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([wam.ae](https:\/\/www.wam.ae\/en\/article\/blnlbvv-adx-welcomes-listing-orascom-construction?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "ADX welcomes listing of Orascom Construction",
+                                    "url": "https:\/\/www.wam.ae\/en\/article\/blnlbvv-adx-welcomes-listing-orascom-construction?utm_source=chatgpt.com",
+                                    "pub_date": 1757598009,
+                                    "snippet": "4 days ago — ABU DHABI, 11th September, 2025 (WAM) -- The Abu Dhabi Securities Exchange (ADX) today welcomed the listing of Orascom Construction, ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [
+                                        {
+                                            "title": "Solid trading debut for Orascom Construction at Abu Dhabi ...",
+                                            "url": "https:\/\/www.finews.com\/news\/english-news\/69299-abu-dhabi-adx-celebrates-listing-of-orascom-construction-stock-exchange-finance-place-middle-east-sawiris?utm_source=chatgpt.com",
+                                            "pub_date": null,
+                                            "snippet": "3 days ago — Monday, 15 September 2025. Solid trading debut for Orascom Construction at Abu Dhabi market ADX. On its first trading day on the Abu Dhabi ...",
+                                            "attribution": "finews.com"
+                                        }
+                                    ],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 2
+                                        },
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 13
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "wam.ae"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search6turn0search10",
+                            "start_idx": 894,
+                            "end_idx": 927,
+                            "safe_urls": [
+                                "https:\/\/www.khaleejtimes.com\/business\/active-development-projects-value-exceeds-758-billion-in-abu-dhabi?utm_source=chatgpt.com",
+                                "https:\/\/www.zawya.com\/en\/press-release\/events-and-conferences\/active-development-projects-value-exceeds-758bln-in-abu-dhabi-as-intl-real-estate-and-investment-show-2025-starts-on-a-high-note-hbx0e5qk?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([Khaleej Times](https:\/\/www.khaleejtimes.com\/business\/active-development-projects-value-exceeds-758-billion-in-abu-dhabi?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Active development projects' value exceeds $758 billion in ...",
+                                    "url": "https:\/\/www.khaleejtimes.com\/business\/active-development-projects-value-exceeds-758-billion-in-abu-dhabi?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "21 hours ago — The value of active urban development projects in Abu Dhabi has topped $758.79 billion, according to industry reports.",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [
+                                        {
+                                            "title": "Active development projects' value exceeds $758bln in ...",
+                                            "url": "https:\/\/www.zawya.com\/en\/press-release\/events-and-conferences\/active-development-projects-value-exceeds-758bln-in-abu-dhabi-as-intl-real-estate-and-investment-show-2025-starts-on-a-high-note-hbx0e5qk?utm_source=chatgpt.com",
+                                            "pub_date": null,
+                                            "snippet": "1 day ago — Active development projects' value exceeds $758bln in Abu Dhabi as Int'l Real Estate & Investment Show 2025 starts on a high note · The total ...",
+                                            "attribution": "zawya.com"
+                                        }
+                                    ],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 6
+                                        },
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 10
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "Khaleej Times"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0news41",
+                            "start_idx": 1107,
+                            "end_idx": 1125,
+                            "safe_urls": [
+                                "https:\/\/www.reuters.com\/world\/middle-east\/gulf-bourses-mixed-early-trade-ahead-feds-decision-2025-09-15\/?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([Reuters](https:\/\/www.reuters.com\/world\/middle-east\/gulf-bourses-mixed-early-trade-ahead-feds-decision-2025-09-15\/?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Gulf bourses mixed in early trade ahead of Fed's decision",
+                                    "url": "https:\/\/www.reuters.com\/world\/middle-east\/gulf-bourses-mixed-early-trade-ahead-feds-decision-2025-09-15\/?utm_source=chatgpt.com",
+                                    "pub_date": 1757924501,
+                                    "snippet": "Stock markets in the Gulf showed mixed movements in early trade on September 15, 2025, as investors awaited the U.S. Federal Reserve's policy decision, widely expected to result in a 25 basis-point rate cut, lowering the rate to 4.0–4.25%. This anticipated easing, with only a 4% chance of a 50 basis-point cut, significantly impacts Gulf markets due to the region’s currency peg to the U.S. dollar.\n\nDubai’s stock index rose 0.2%, supported by gains in consumer staples and utilities, with Gulf Navigation and Tecom Group gaining 3.2% and 1.8% respectively, although shares in telecom provider du fell 1% following a major stake sale worth 3.15 billion dirhams by shareholder Mamoura Diversified Global Holding.\n\nAbu Dhabi’s index gained 0.3%, as Abu Dhabi Islamic Bank and Multiply Group posted gains, though Space42 declined 1%. Saudi Arabia’s index dipped 0.2%, dragged by financial and healthcare sectors, notably Al Rajhi Bank, which dropped 1.8% after announcing a reduced interim dividend. On the upside, Fawaz Abdulaziz Al Hokair & Co surged 6% after securing a 1.6 billion riyal banking facility. Qatar’s benchmark index was flat.",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "news",
+                                            "ref_index": 41
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "Reuters"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0news42",
+                            "start_idx": 1419,
+                            "end_idx": 1437,
+                            "safe_urls": [
+                                "https:\/\/www.reuters.com\/business\/energy\/uaes-adnoc-announces-internal-transfers-shareholdings-its-listed-companies-xrg-2025-09-11\/?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([Reuters](https:\/\/www.reuters.com\/business\/energy\/uaes-adnoc-announces-internal-transfers-shareholdings-its-listed-companies-xrg-2025-09-11\/?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "UAE's Adnoc announces internal transfers of shareholdings in its listed companies to XRG",
+                                    "url": "https:\/\/www.reuters.com\/business\/energy\/uaes-adnoc-announces-internal-transfers-shareholdings-its-listed-companies-xrg-2025-09-11\/?utm_source=chatgpt.com",
+                                    "pub_date": 1757593583,
+                                    "snippet": "On September 11, 2025, the Abu Dhabi National Oil Company (ADNOC) announced a strategic internal restructuring involving the transfer of its equity stakes in its publicly listed companies to XRG, its international investment arm. Despite this shift, ADNOC emphasized that it will retain full control and ultimate ownership of these assets through its 100% ownership of XRG. The move aligns with ADNOC’s broader focus on long-term value creation and maintaining capital discipline. This internal transfer is part of ADNOC’s efforts to streamline its investment structure and optimize asset management.",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "news",
+                                            "ref_index": 42
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "Reuters"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search11turn0search7turn0search3",
+                            "start_idx": 1733,
+                            "end_idx": 1779,
+                            "safe_urls": [
+                                "https:\/\/gulfnews.com\/uae\/crime\/abu-dhabi-authorities-crack-down-on-fake-news-and-rumours-online-1.500133983?utm_source=chatgpt.com",
+                                "https:\/\/www.lexismiddleeast.com\/news\/2025-05-21_19?utm_source=chatgpt.com",
+                                "https:\/\/www.wam.ae\/en\/article\/bj53gbh-abu-dhabi-police-warn-against-rumours?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([wam.ae](https:\/\/www.wam.ae\/en\/article\/bj53gbh-abu-dhabi-police-warn-against-rumours?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Abu Dhabi Police warn against rumours, misinformation",
+                                    "url": "https:\/\/www.wam.ae\/en\/article\/bj53gbh-abu-dhabi-police-warn-against-rumours?utm_source=chatgpt.com",
+                                    "pub_date": 1744482115,
+                                    "snippet": "Abu Dhabi Police have urged the public to rely on credible media sources and avoid spreading rumours and misinformation.",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [
+                                        {
+                                            "title": "Abu Dhabi cracks down on fake news and rumours online",
+                                            "url": "https:\/\/gulfnews.com\/uae\/crime\/abu-dhabi-authorities-crack-down-on-fake-news-and-rumours-online-1.500133983?utm_source=chatgpt.com",
+                                            "pub_date": null,
+                                            "snippet": "May 20, 2025 — Abu Dhabi cracks down on fake news and rumours online. Offenders face up to two years in prison and Dh200,000 fine under UAE Cybercrime Law.",
+                                            "attribution": "gulfnews.com"
+                                        },
+                                        {
+                                            "title": "Abu Dhabi: Strict Penalties for Spreading Fake News",
+                                            "url": "https:\/\/www.lexismiddleeast.com\/news\/2025-05-21_19?utm_source=chatgpt.com",
+                                            "pub_date": null,
+                                            "snippet": "May 21, 2025 — This law prohibits the dissemination of misleading information and fake news, particularly content that contradicts public interest, ...",
+                                            "attribution": "Lexis Middle East"
+                                        }
+                                    ],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 11
+                                        },
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 7
+                                        },
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 3
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "wam.ae"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search14",
+                            "start_idx": 1950,
+                            "end_idx": 1970,
+                            "safe_urls": [
+                                "https:\/\/www.mofa.gov.ae\/en\/MediaHub\/News\/2025\/8\/10\/10-8-2025-UAE-Sudan?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([Foreign Affairs Ministry](https:\/\/www.mofa.gov.ae\/en\/MediaHub\/News\/2025\/8\/10\/10-8-2025-UAE-Sudan?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "UAE Urges End to Sudan Conflict Amid Escalating ...",
+                                    "url": "https:\/\/www.mofa.gov.ae\/en\/MediaHub\/News\/2025\/8\/10\/10-8-2025-UAE-Sudan?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "UAE Urges End to Sudan Conflict Amid Escalating Disinformation from Port Sudan Authority. Sun 10\/8\/2025. General. The United Arab Emirates stands with the ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 14
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "Foreign Affairs Ministry"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0search4turn0search8turn0search19",
+                            "start_idx": 2222,
+                            "end_idx": 2268,
+                            "safe_urls": [
+                                "https:\/\/www.mediaoffice.abudhabi\/en\/arts-culture\/department-of-culture-and-tourism-abu-dhabi-to-host-seminar-series-on-preserving-cultural-and-natural-heritage\/?utm_source=chatgpt.com",
+                                "https:\/\/www.wam.ae\/en\/article\/blpdmos-abu-dhabi-delegation-promote-trade-investment?utm_source=chatgpt.com",
+                                "https:\/\/www.wam.ae\/en\/article\/blpdmov-abu-dhabi-hosts-congress-arabic-creative?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([wam.ae](https:\/\/www.wam.ae\/en\/article\/blpdmos-abu-dhabi-delegation-promote-trade-investment?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Abu Dhabi delegation to promote trade, investment partnership with Germany",
+                                    "url": "https:\/\/www.wam.ae\/en\/article\/blpdmos-abu-dhabi-delegation-promote-trade-investment?utm_source=chatgpt.com",
+                                    "pub_date": 1757854935,
+                                    "snippet": null,
+                                    "attribution_segments": null,
+                                    "supporting_websites": [
+                                        {
+                                            "title": "Abu Dhabi hosts Congress of Arabic & Creative Industries 2025",
+                                            "url": "https:\/\/www.wam.ae\/en\/article\/blpdmov-abu-dhabi-hosts-congress-arabic-creative?utm_source=chatgpt.com",
+                                            "pub_date": null,
+                                            "snippet": null,
+                                            "attribution": "wam.ae"
+                                        },
+                                        {
+                                            "title": "Department of Culture and Tourism – Abu Dhabi to host ...",
+                                            "url": "https:\/\/www.mediaoffice.abudhabi\/en\/arts-culture\/department-of-culture-and-tourism-abu-dhabi-to-host-seminar-series-on-preserving-cultural-and-natural-heritage\/?utm_source=chatgpt.com",
+                                            "pub_date": null,
+                                            "snippet": "5 hours ago — Launching in September 2025, the programme underscores DCT Abu Dhabi's long-standing commitment to promote cultural sustainability, protect ...",
+                                            "attribution": "Media Office Abu Dhabi"
+                                        }
+                                    ],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 4
+                                        },
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 8
+                                        },
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "search",
+                                            "ref_index": 19
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "wam.ae"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn0news40",
+                            "start_idx": 2370,
+                            "end_idx": 2388,
+                            "safe_urls": [
+                                "https:\/\/m.economictimes.com\/news\/sports\/united-arab-emirates-vs-oman-t20-match-asia-cup-2025-live-streaming-when-where-and-how-to-watch-uae-vs-oma-cricket-match-coverage-live-tv-online-your-country\/articleshow\/123899348.cms?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([The Economic Times](https:\/\/m.economictimes.com\/news\/sports\/united-arab-emirates-vs-oman-t20-match-asia-cup-2025-live-streaming-when-where-and-how-to-watch-uae-vs-oma-cricket-match-coverage-live-tv-online-your-country\/articleshow\/123899348.cms?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "UAE vs Oman Asia Cup 2025 T20 match live streaming: When and where to watch the virtual knockout encounter?",
+                                    "url": "https:\/\/m.economictimes.com\/news\/sports\/united-arab-emirates-vs-oman-t20-match-asia-cup-2025-live-streaming-when-where-and-how-to-watch-uae-vs-oma-cricket-match-coverage-live-tv-online-your-country\/articleshow\/123899348.cms?utm_source=chatgpt.com",
+                                    "pub_date": 1757933392,
+                                    "snippet": "The Asia Cup 2025 T20 match between United Arab Emirates (UAE) and Oman is a crucial virtual knockout encounter, as both teams lost their opening matches. The match is scheduled to take place at Sheikh Zayed Stadium in Abu Dhabi on Monday at 5:30 PM IST. This fixture holds high stakes, with the loser likely to be eliminated from the tournament. The live broadcast and streaming details are provided for viewers to watch the game on TV and online platforms.",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 0,
+                                            "ref_type": "news",
+                                            "ref_index": 40
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "The Economic Times"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": " ",
+                            "start_idx": 2531,
+                            "end_idx": 2531,
+                            "safe_urls": [],
+                            "refs": [],
+                            "alt": "",
+                            "prompt_text": null,
+                            "type": "sources_footnote",
+                            "sources": [
+                                {
+                                    "title": "UAE petrol, diesel prices for September 2025 announced",
+                                    "url": "https:\/\/gulfnews.com\/business\/energy\/uae-petrol-diesel-prices-for-september-2025-announced-1.500250892?utm_source=chatgpt.com",
+                                    "attribution": "gulfnews.com"
+                                },
+                                {
+                                    "title": "ADX welcomes listing of Orascom Construction",
+                                    "url": "https:\/\/www.wam.ae\/en\/article\/blnlbvv-adx-welcomes-listing-orascom-construction?utm_source=chatgpt.com",
+                                    "attribution": "wam.ae"
+                                },
+                                {
+                                    "title": "Active development projects' value exceeds $758 billion in ...",
+                                    "url": "https:\/\/www.khaleejtimes.com\/business\/active-development-projects-value-exceeds-758-billion-in-abu-dhabi?utm_source=chatgpt.com",
+                                    "attribution": "Khaleej Times"
+                                },
+                                {
+                                    "title": "Gulf bourses mixed in early trade ahead of Fed's decision",
+                                    "url": "https:\/\/www.reuters.com\/world\/middle-east\/gulf-bourses-mixed-early-trade-ahead-feds-decision-2025-09-15\/?utm_source=chatgpt.com",
+                                    "attribution": "Reuters"
+                                },
+                                {
+                                    "title": "UAE Urges End to Sudan Conflict Amid Escalating ...",
+                                    "url": "https:\/\/www.mofa.gov.ae\/en\/MediaHub\/News\/2025\/8\/10\/10-8-2025-UAE-Sudan?utm_source=chatgpt.com",
+                                    "attribution": "Foreign Affairs Ministry"
+                                },
+                                {
+                                    "title": "UAE vs Oman Asia Cup 2025 T20 match live streaming: When and where to watch the virtual knockout encounter?",
+                                    "url": "https:\/\/m.economictimes.com\/news\/sports\/united-arab-emirates-vs-oman-t20-match-asia-cup-2025-live-streaming-when-where-and-how-to-watch-uae-vs-oma-cricket-match-coverage-live-tv-online-your-country\/articleshow\/123899348.cms?utm_source=chatgpt.com",
+                                    "attribution": "The Economic Times"
+                                }
+                            ],
+                            "has_images": false
+                        }
+                    ],
+                    "safe_urls": [
+                        "https:\/\/en.emirates7.com\/article\/6564?utm_source=chatgpt.com",
+                        "https:\/\/gulfnews.com\/business\/energy\/uae-petrol-diesel-prices-for-september-2025-announced-1.500250892?utm_source=chatgpt.com",
+                        "https:\/\/www.timeoutdubai.com\/news\/uae-petrol-price-september-2025?utm_source=chatgpt.com",
+                        "https:\/\/www.finews.com\/news\/english-news\/69299-abu-dhabi-adx-celebrates-listing-of-orascom-construction-stock-exchange-finance-place-middle-east-sawiris?utm_source=chatgpt.com",
+                        "https:\/\/www.wam.ae\/en\/article\/blnlbvv-adx-welcomes-listing-orascom-construction?utm_source=chatgpt.com",
+                        "https:\/\/www.khaleejtimes.com\/business\/active-development-projects-value-exceeds-758-billion-in-abu-dhabi?utm_source=chatgpt.com",
+                        "https:\/\/www.zawya.com\/en\/press-release\/events-and-conferences\/active-development-projects-value-exceeds-758bln-in-abu-dhabi-as-intl-real-estate-and-investment-show-2025-starts-on-a-high-note-hbx0e5qk?utm_source=chatgpt.com",
+                        "https:\/\/www.reuters.com\/world\/middle-east\/gulf-bourses-mixed-early-trade-ahead-feds-decision-2025-09-15\/?utm_source=chatgpt.com",
+                        "https:\/\/www.reuters.com\/business\/energy\/uaes-adnoc-announces-internal-transfers-shareholdings-its-listed-companies-xrg-2025-09-11\/?utm_source=chatgpt.com",
+                        "https:\/\/gulfnews.com\/uae\/crime\/abu-dhabi-authorities-crack-down-on-fake-news-and-rumours-online-1.500133983?utm_source=chatgpt.com",
+                        "https:\/\/www.lexismiddleeast.com\/news\/2025-05-21_19?utm_source=chatgpt.com",
+                        "https:\/\/www.wam.ae\/en\/article\/bj53gbh-abu-dhabi-police-warn-against-rumours?utm_source=chatgpt.com",
+                        "https:\/\/www.mofa.gov.ae\/en\/MediaHub\/News\/2025\/8\/10\/10-8-2025-UAE-Sudan?utm_source=chatgpt.com",
+                        "https:\/\/www.mediaoffice.abudhabi\/en\/arts-culture\/department-of-culture-and-tourism-abu-dhabi-to-host-seminar-series-on-preserving-cultural-and-natural-heritage\/?utm_source=chatgpt.com",
+                        "https:\/\/www.wam.ae\/en\/article\/blpdmos-abu-dhabi-delegation-promote-trade-investment?utm_source=chatgpt.com",
+                        "https:\/\/www.wam.ae\/en\/article\/blpdmov-abu-dhabi-hosts-congress-arabic-creative?utm_source=chatgpt.com",
+                        "https:\/\/m.economictimes.com\/news\/sports\/united-arab-emirates-vs-oman-t20-match-asia-cup-2025-live-streaming-when-where-and-how-to-watch-uae-vs-oma-cricket-match-coverage-live-tv-online-your-country\/articleshow\/123899348.cms?utm_source=chatgpt.com"
+                    ],
+                    "search_result_groups": [
+                        {
+                            "type": "search_result_group",
+                            "domain": "bloomberg.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.bloomberg.com\/news\/newsletters\/2025-09-15\/how-saudi-arabia-uae-abu-dhabi-kuwait-qatar-wealth-funds-run-your-day?utm_source=chatgpt.com",
+                                    "title": "How Middle Eastern Sovereign Wealth Funds Quietly Run ...",
+                                    "snippet": "43 minutes ago — Abu Dhabi's Mubadala Investment splashed out $29 billion alone. Here's a look at a sampling of the vast array of investments from these ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 0
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "bloomberg.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "lexismiddleeast.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.lexismiddleeast.com\/news\/2025-05-21_19?utm_source=chatgpt.com",
+                                    "title": "Abu Dhabi: Strict Penalties for Spreading Fake News",
+                                    "snippet": "May 21, 2025 — This law prohibits the dissemination of misleading information and fake news, particularly content that contradicts public interest, ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 3
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "lexismiddleeast.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "gulfnews.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/gulfnews.com\/uae\/crime\/abu-dhabi-authorities-crack-down-on-fake-news-and-rumours-online-1.500133983?utm_source=chatgpt.com",
+                                    "title": "Abu Dhabi cracks down on fake news and rumours online",
+                                    "snippet": "May 20, 2025 — Abu Dhabi cracks down on fake news and rumours online. Offenders face up to two years in prison and Dh200,000 fine under UAE Cybercrime Law.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 7
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "gulfnews.com"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/gulfnews.com\/business\/property\/abu-dhabis-real-estate-market-accelerates-ahead-of-ireis-2025-1.500267001?utm_source=chatgpt.com",
+                                    "title": "Abu Dhabi's real estate market accelerates ahead of IREIS ...",
+                                    "snippet": "3 days ago — Abu Dhabi's real estate market continues to grow strongly. In Q1 2025, transaction value reached ~Dh25.3 billion, up 34.5% year-on-year. Rising ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 26
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "gulfnews.com"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/gulfnews.com\/uae\/government\/uae-implements-new-media-law-with-penalties-up-to-dh1-million-for-violations-1.500151242?utm_source=chatgpt.com",
+                                    "title": "Up to Dh1 million penalties for violating UAE new media law",
+                                    "snippet": "Jun 4, 2025 — Spreading rumours or disinformation is banned, as is glorifying or promoting groups with political, ideological, racial, or social agendas ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 32
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "gulfnews.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "wam.ae",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.wam.ae\/en\/article\/blpdmov-abu-dhabi-hosts-congress-arabic-creative?utm_source=chatgpt.com",
+                                    "title": "Abu Dhabi hosts Congress of Arabic & Creative Industries 2025",
+                                    "snippet": "",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 8
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "wam.ae"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "emirates7.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/en.emirates7.com\/article\/6564?utm_source=chatgpt.com",
+                                    "title": "UAE Fuel Price Committee announces prices for September",
+                                    "snippet": "Aug 31, 2025 — The UAE Fuel Price Committee approved the fuel prices for September 2025 as follows: - Diesel: AED2.66 per litre. - Super 98 : AED2.70 per.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 9
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "emirates7.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "zawya.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.zawya.com\/en\/press-release\/events-and-conferences\/active-development-projects-value-exceeds-758bln-in-abu-dhabi-as-intl-real-estate-and-investment-show-2025-starts-on-a-high-note-hbx0e5qk?utm_source=chatgpt.com",
+                                    "title": "Active development projects' value exceeds $758bln in ...",
+                                    "snippet": "1 day ago — Active development projects' value exceeds $758bln in Abu Dhabi as Int'l Real Estate & Investment Show 2025 starts on a high note · The total ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 10
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "zawya.com"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.zawya.com\/en\/business\/energy\/uae-fuel-price-committee-announces-prices-for-september-hrsndsd2?utm_source=chatgpt.com",
+                                    "title": "UAE Fuel Price Committee announces prices for September",
+                                    "snippet": "Aug 31, 2025 — ABU DHABI: The UAE Fuel Price Committee approved the fuel prices for September 2025 as follows: - Diesel: AED2.66 per litre. - Super \"98 ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 23
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "zawya.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "timeoutdubai.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.timeoutdubai.com\/news\/uae-petrol-price-september-2025?utm_source=chatgpt.com",
+                                    "title": "UAE petrol prices 2025: September rates announced",
+                                    "snippet": "Sep 1, 2025 — UAE petrol prices September 2025 ; Super 98 petrol: Dhs2.70 per litre, compared to Dhs2.69 per litre last month ; Super 95 petrol: Dhs2.58 per ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 12
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "timeoutdubai.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "finews.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.finews.com\/news\/english-news\/69299-abu-dhabi-adx-celebrates-listing-of-orascom-construction-stock-exchange-finance-place-middle-east-sawiris?utm_source=chatgpt.com",
+                                    "title": "Solid trading debut for Orascom Construction at Abu Dhabi ...",
+                                    "snippet": "3 days ago — Monday, 15 September 2025. Solid trading debut for Orascom Construction at Abu Dhabi market ADX. On its first trading day on the Abu Dhabi ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 13
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "finews.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "whatson.ae",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/whatson.ae\/2025\/09\/miami-vibes-food-festival-returns-to-abu-dhabi-this-september\/?utm_source=chatgpt.com",
+                                    "title": "Miami Vibes food festival returns to Abu Dhabi this September",
+                                    "snippet": "",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 15
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "whatson.ae"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "facebook.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.facebook.com\/AletihadEn\/posts\/the-uae-fuel-price-committee-on-sunday-approved-the-fuel-prices-for-september-20\/634789443013449\/?utm_source=chatgpt.com",
+                                    "title": "The UAE Fuel Price Committee on Sunday approved ...",
+                                    "snippet": "The UAE Fuel Price Committee on Sunday approved the fuel prices for September 2025.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 16
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "facebook.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "elevatorworld.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/elevatorworld.com\/news\/daily-news\/abu-dhabi-to-sign-us12-8-billion-in-infrastructure-projects\/?utm_source=chatgpt.com",
+                                    "title": "Abu Dhabi To Sign US$12.8 Billion in Infrastructure Projects",
+                                    "snippet": "Aug 18, 2025 — Abu Dhabi aims to sign Dh47 billion (US$12.8 billion) worth of infrastructure projects with the private sector in the second half of 2025, ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 17
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "elevatorworld.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "dubaieye1038.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.dubaieye1038.com\/news\/local\/abu-dhabi-police-warns-against-spreading-misinformation\/?utm_source=chatgpt.com",
+                                    "title": "Abu Dhabi Police warns against spreading misinformation",
+                                    "snippet": "Apr 13, 2025 — Abu Dhabi Police has urged the public to rely only on credible media sources and avoid spreading rumours and misinformation.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 18
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "dubaieye1038.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "mediaoffice.abudhabi",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.mediaoffice.abudhabi\/en\/arts-culture\/department-of-culture-and-tourism-abu-dhabi-to-host-seminar-series-on-preserving-cultural-and-natural-heritage\/?utm_source=chatgpt.com",
+                                    "title": "Department of Culture and Tourism – Abu Dhabi to host ...",
+                                    "snippet": "5 hours ago — Launching in September 2025, the programme underscores DCT Abu Dhabi's long-standing commitment to promote cultural sustainability, protect ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 19
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "mediaoffice.abudhabi"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "wow-rak.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/wow-rak.com\/petrol-prices-for-uae-in-for-this-month\/?utm_source=chatgpt.com",
+                                    "title": "Petrol Prices for UAE in September 2025",
+                                    "snippet": "Aug 31, 2025 — The UAE Fuel Price Committee announces petrol and diesel prices for the following month on the 28th of each month. VAT was introduced in the ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 20
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "wow-rak.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "yahoo.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/finance.yahoo.com\/news\/uae-construction-industry-report-2025-103700932.html?utm_source=chatgpt.com",
+                                    "title": "UAE Construction Industry Report 2025 | Market to Grow at a ...",
+                                    "snippet": "Sep 1, 2025 — UAE Construction Industry Report 2025 | Market to Grow at a CAGR of 6.06% to 2030, Driven by Real Estate Boom, Expat Demand, Landmark Projects, ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 21
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "yahoo.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "lexis.ae",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.lexis.ae\/2025\/05\/22\/rak-enforces-uae-law-against-spreading-fake-news\/?utm_source=chatgpt.com",
+                                    "title": "Police Enforces UAE Law Against Spreading Fake News",
+                                    "snippet": "May 22, 2025 — Anyone found guilty of spreading fake news or rumours can face a minimum of one year in jail and a fine of Dh100,000 or more. This applies to ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 22
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "lexis.ae"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "modernbuildingssummit.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/modernbuildingssummit.com\/abu-dhabi\/?utm_source=chatgpt.com",
+                                    "title": "Abu Dhabi - Modern Buildings Summit",
+                                    "snippet": "The Modern Buildings Summit in GCC is the premier conference for professionals, innovators, and decision-makers in the building and construction industry.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 24
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "modernbuildingssummit.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "arabianbusiness.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.arabianbusiness.com\/culture-society\/abu-dhabi-police-warn-against-spread-of-rumours-in-new-public-advisory?utm_source=chatgpt.com",
+                                    "title": "Abu Dhabi Police warn against spread of rumours in new ...",
+                                    "snippet": "Apr 13, 2025 — Abu Dhabi Police urge public to combat misinformation. The statement highlighted the role that residents play in maintaining information ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 25
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "arabianbusiness.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "instagram.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.instagram.com\/p\/DOAmcuSCaDP\/?utm_source=chatgpt.com",
+                                    "title": "The UAE Fuel Price Committee on Sunday approved ...",
+                                    "snippet": "The UAE Fuel Price Committee on Sunday approved the fuel prices for September 2025. Click on the link in bio to read the full story. # ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 27
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "instagram.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "bignewsnetwork.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.bignewsnetwork.com\/news\/278568597\/adx-welcomes-listing-of-orascom-construction?utm_source=chatgpt.com",
+                                    "title": "ADX welcomes listing of Orascom Construction",
+                                    "snippet": "4 days ago — ABU DHABI, 11th September, 2025 (WAM) -- The Abu Dhabi Securities Exchange (ADX) today welcomed the listing of Orascom Construction, ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 28
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "bignewsnetwork.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "u.ae",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/u.ae\/en\/information-and-services\/justice-safety-and-the-law\/cyber-safety-and-digital-security\/law-on-combatting-rumours-and-cybercrimes?utm_source=chatgpt.com",
+                                    "title": "Law on combatting rumours and cybercrimes",
+                                    "snippet": "May 24, 2024 — Law on combatting rumours and cybercrimes · Penalties of collecting and processing personal data and information · Penalties of fake e-mails, ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 29
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "u.ae"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "dubicars.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.dubicars.com\/news\/petrol-price-in-uae.html?utm_source=chatgpt.com",
+                                    "title": "September 2025 Petrol & Diesel Prices in UAE",
+                                    "snippet": "7 days ago — New UAE petrol prices for September 2025 are AED 2.51 for E-Plus 91, AED 2.58 for Special 95, and AED 2.70 for Super 98. The price of diesel ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 30
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "dubicars.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "blooloop.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/blooloop.com\/theme-park\/news\/disneyland-abu-dhabi-could-open-before-universal-uk-theme-park\/?utm_source=chatgpt.com",
+                                    "title": "Disney Abu Dhabi could open before Universal's UK park",
+                                    "snippet": "Disneyland Abu Dhabi could open before Universal's planned UK theme park, according to Abu Dhabi's culture and tourism department.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 31
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "blooloop.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "khaleejtimes.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.khaleejtimes.com\/uae\/uae-petrol-prices-august-2025-2?utm_source=chatgpt.com",
+                                    "title": "UAE petrol, diesel prices for September 2025 announced",
+                                    "snippet": "Aug 31, 2025 — Super 98 petrol will cost Dh2.70 a litre, compared to Dh2. · Special 95 petrol will cost Dh2.58 per litre, compared to the current rate of Dh2.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 33
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "khaleejtimes.com"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.khaleejtimes.com\/uae\/weather\/september-15-2025?utm_source=chatgpt.com",
+                                    "title": "Chance of fog as temperatures reach 39°C in Abu Dhabi ...",
+                                    "snippet": "9 hours ago — The heat will continue during the day time until the autumnal equinox on September 23, as will fog, mist and high humidity levels. In fact, ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 36
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "khaleejtimes.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "worldbusinessoutlook.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/worldbusinessoutlook.com\/modern-buildings-summit-returns-to-abu-dhabi\/?utm_source=chatgpt.com",
+                                    "title": "Modern Buildings Summit Returns to Abu Dhabi",
+                                    "snippet": "Modern Buildings Summit – Abu Dhabi, set to take place on ; 11th September 2025 at the Dusit Thani, Abu Dhabi, UAE.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 34
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "worldbusinessoutlook.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "thenationalnews.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.thenationalnews.com\/news\/uae\/2025\/05\/16\/uae-security-chief-warns-of-rise-in-cyber-crime-on-back-of-donald-trump-visit\/?utm_source=chatgpt.com",
+                                    "title": "UAE security chief warns of rise in cyber crime on back of ...",
+                                    "snippet": "May 16, 2025 — Cyber terrorism - Social media platforms are used to spread radical ideologies, misinformation and disinformation, often with the aim of ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 35
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "thenationalnews.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "formula1.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.formula1.com\/en\/latest\/article\/the-ultimate-f1-music-line-up-guide-from-baku-to-abu-dhabi.1aktONnhxM0QjDVR2IV1HJ?utm_source=chatgpt.com",
+                                    "title": "The ultimate F1 music line-up guide from Baku to Abu Dhabi",
+                                    "snippet": "3 days ago — From Baku's EDM beats to Singapore's superstar headliners, Formula 1's final race weekends of 2025 double as world-class music festivals.",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 37
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "formula1.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "timeoutabudhabi.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.timeoutabudhabi.com\/news\/miami-vibes-festival-2025?utm_source=chatgpt.com",
+                                    "title": "Miami Vibes festival is coming back to Abu Dhabi very soon",
+                                    "snippet": "3 hours ago — From September 21 to October 12, Miami Vibes will take over Marina Mall Abu Dhabi, bringing a brand-new drive-thru setup. But don't worry, it's ...",
+                                    "ref_id": {
+                                        "turn_index": 0,
+                                        "ref_type": "search",
+                                        "ref_index": 38
+                                    },
+                                    "pub_date": null,
+                                    "attribution": "timeoutabudhabi.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "citations": [],
+                    "request_id": "97f845875dbe0d5c-DXB",
+                    "message_type": "next",
+                    "model_slug": "gpt-5-thinking",
+                    "default_model_slug": "gpt-5-thinking",
+                    "parent_id": "f56ae0d3-5af3-4332-a747-ba93558cdeb9",
+                    "timestamp_": "absolute",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": "final"
+            },
+            "parent": "f56ae0d3-5af3-4332-a747-ba93558cdeb9",
+            "children": []
+        }
+    },
+    "moderation_results": [],
+    "current_node": "be1eecac-cd9b-409b-85d9-7f6f8aee07de",
+    "plugin_ids": null,
+    "conversation_id": "68c80c0a-7e74-8332-a7d2-595f241f6f9d",
+    "conversation_template_id": "g-p-68cba3ab7eac8191b45ec9655216fbd7",
+    "gizmo_id": "g-p-68cba3ab7eac8191b45ec9655216fbd7",
+    "gizmo_type": "snorlax",
+    "is_archived": false,
+    "is_starred": null,
+    "safe_urls": [
+        "https:\/\/www.wam.ae\/en\/article\/blpdmos-abu-dhabi-delegation-promote-trade-investment?utm_source=chatgpt.com",
+        "https:\/\/www.lexismiddleeast.com\/news\/2025-05-21_19?utm_source=chatgpt.com",
+        "https:\/\/www.wam.ae\/en\/article\/bj53gbh-abu-dhabi-police-warn-against-rumours?utm_source=chatgpt.com",
+        "https:\/\/www.wam.ae\/en\/article\/blnlbvv-adx-welcomes-listing-orascom-construction?utm_source=chatgpt.com",
+        "https:\/\/www.wam.ae\/en\/article\/blpdmov-abu-dhabi-hosts-congress-arabic-creative?utm_source=chatgpt.com",
+        "https:\/\/www.finews.com\/news\/english-news\/69299-abu-dhabi-adx-celebrates-listing-of-orascom-construction-stock-exchange-finance-place-middle-east-sawiris?utm_source=chatgpt.com",
+        "https:\/\/en.emirates7.com\/article\/6564?utm_source=chatgpt.com",
+        "https:\/\/docs.google.com\/spreadsheets\/d\/1HmkfBJulhu50S6L9wuRsaVC9VL1LpbxpmgRzn33SxsQ\/edit?gid=676408861#gid=676408861",
+        "https:\/\/docs.google.com\/presentation\/d\/11n0Wjuik6jHQFe-gRLV2LOg7CQHGf-CM_JX0Y-Io_RI\/edit#slide=id.g2ef8699e0eb_48_36",
+        "https:\/\/docs.google.com\/document\/d\/1WF0NB9fnxhDPEi_arGSp18Kev9KXdoX-IePIE8KJgCQ\/edit?tab=t.0#heading=h.e3mmf6q9l82j",
+        "https:\/\/www.reuters.com\/business\/energy\/uaes-adnoc-announces-internal-transfers-shareholdings-its-listed-companies-xrg-2025-09-11\/?utm_source=chatgpt.com",
+        "https:\/\/www.zawya.com\/en\/press-release\/events-and-conferences\/active-development-projects-value-exceeds-758bln-in-abu-dhabi-as-intl-real-estate-and-investment-show-2025-starts-on-a-high-note-hbx0e5qk?utm_source=chatgpt.com",
+        "https:\/\/gulfnews.com\/business\/energy\/uae-petrol-diesel-prices-for-september-2025-announced-1.500250892?utm_source=chatgpt.com",
+        "https:\/\/www.notion.so\/9162f50b62b080124ca4db47ba6f2e54",
+        "https:\/\/www.reuters.com\/world\/middle-east\/gulf-bourses-mixed-early-trade-ahead-feds-decision-2025-09-15\/?utm_source=chatgpt.com",
+        "https:\/\/www.mofa.gov.ae\/en\/MediaHub\/News\/2025\/8\/10\/10-8-2025-UAE-Sudan?utm_source=chatgpt.com",
+        "https:\/\/www.mediaoffice.abudhabi\/en\/arts-culture\/department-of-culture-and-tourism-abu-dhabi-to-host-seminar-series-on-preserving-cultural-and-natural-heritage\/?utm_source=chatgpt.com",
+        "https:\/\/www.openai.com",
+        "https:\/\/gulfnews.com\/uae\/crime\/abu-dhabi-authorities-crack-down-on-fake-news-and-rumours-online-1.500133983?utm_source=chatgpt.com",
+        "https:\/\/www.timeoutdubai.com\/news\/uae-petrol-price-september-2025?utm_source=chatgpt.com",
+        "https:\/\/www.khaleejtimes.com\/business\/active-development-projects-value-exceeds-758-billion-in-abu-dhabi?utm_source=chatgpt.com",
+        "https:\/\/docs.google.com\/document\/d\/1WF0NB9fnxhDPEi_arGSp18Kev9KXdoX-IePIE8KJgCQ",
+        "https:\/\/m.economictimes.com\/news\/sports\/united-arab-emirates-vs-oman-t20-match-asia-cup-2025-live-streaming-when-where-and-how-to-watch-uae-vs-oma-cricket-match-coverage-live-tv-online-your-country\/articleshow\/123899348.cms?utm_source=chatgpt.com"
+    ],
+    "blocked_urls": [],
+    "default_model_slug": "gpt-5-thinking",
+    "conversation_origin": null,
+    "voice": null,
+    "async_status": null,
+    "disabled_tool_ids": [],
+    "is_do_not_remember": false,
+    "memory_scope": "global_enabled",
+    "sugar_item_id": null,
+    "sugar_item_visible": false,
+    "is_study_mode": false,
+    "owner": null
+}

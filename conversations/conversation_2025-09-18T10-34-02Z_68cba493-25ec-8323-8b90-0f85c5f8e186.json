@@ -1,0 +1,1215 @@
+{
+    "title": "ICML Best Paper Summary",
+    "create_time": 1758176404.386852,
+    "update_time": 1758176426.695051,
+    "mapping": {
+        "client-created-root": {
+            "id": "client-created-root",
+            "message": null,
+            "parent": null,
+            "children": [
+                "d4a21b26-c799-4e86-9c9f-1e6e202268a7"
+            ]
+        },
+        "d4a21b26-c799-4e86-9c9f-1e6e202268a7": {
+            "id": "d4a21b26-c799-4e86-9c9f-1e6e202268a7",
+            "message": {
+                "id": "d4a21b26-c799-4e86-9c9f-1e6e202268a7",
+                "author": {
+                    "role": "system",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": null,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": true,
+                "weight": 0,
+                "metadata": {
+                    "is_visually_hidden_from_conversation": true
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "client-created-root",
+            "children": [
+                "e398030f-f21f-47b2-911a-243a3b41de4d"
+            ]
+        },
+        "e398030f-f21f-47b2-911a-243a3b41de4d": {
+            "id": "e398030f-f21f-47b2-911a-243a3b41de4d",
+            "message": {
+                "id": "e398030f-f21f-47b2-911a-243a3b41de4d",
+                "author": {
+                    "role": "system",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1758176403.8149807,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                    "attachments": [],
+                    "is_visually_hidden_from_conversation": true
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "d4a21b26-c799-4e86-9c9f-1e6e202268a7",
+            "children": [
+                "f9f69b26-0e1f-4b70-864f-737c534566c8"
+            ]
+        },
+        "f9f69b26-0e1f-4b70-864f-737c534566c8": {
+            "id": "f9f69b26-0e1f-4b70-864f-737c534566c8",
+            "message": {
+                "id": "f9f69b26-0e1f-4b70-864f-737c534566c8",
+                "author": {
+                    "role": "user",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1758176402.465,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "Provide a detailed summary of the key findings and methodology discussed in the paper that won the 'Best Paper Award' at the most recent International Conference on Machine Learning (ICML)."
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                    "developer_mode_connector_ids": [],
+                    "selected_sources": [],
+                    "selected_github_repos": [],
+                    "serialization_metadata": {
+                        "custom_symbol_offsets": []
+                    },
+                    "request_id": "980ebc33ffe21d87-DXB",
+                    "message_source": null,
+                    "timestamp_": "absolute",
+                    "turn_summary": "The user requested a detailed summary of the key findings and methodology from the Best Paper at the latest ICML conference. I identified the award-winning paper as “Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions” (ICML 2025) and provided an in-depth summary.\n\nThe paper investigates Masked Diffusion Models (MDMs) for discrete data compared to autoregressive models (ARMs), focusing on the impact of token decoding order on training complexity and inference quality. MDMs are flexible at inference due to arbitrary token unmasking order but face exponentially many, often difficult, masked subproblems during training. ARMs train on fewer, fixed-order tasks, simplifying training but limiting flexibility.\n\nKey methodological points include the formalization of MDM training as an expectation over all possible masked subsets, theoretical proofs showing some masked completion tasks are computationally hard, and empirical evidence that MDMs struggle more on certain mask types (e.g., “future” tokens). To address this, the authors propose adaptive inference strategies that select tokens to unmask next based on model confidence measures (e.g., highest marginal probability or margin) to avoid hard cases.\n\nExperiments on logic puzzles (Sudoku, Zebra), natural language modeling, and other discrete tasks demonstrate that adaptive decoding dramatically improves performance—e.g., raising Sudoku accuracy from ~7% to ~90%—and can surpass ARMs. Theoretical and empirical results together highlight the importance of decoding order, not just model architecture.\n\nBroader takeaways emphasize inference strategy’s critical role in discrete generative models, suggest further research into inference-aware training, and note that training all subproblems well is often intractable, making adaptive decoding fundamentally necessary. Limitations include computational overhead of adaptive inference, questions about generalization to other domains, and open challenges in designing advanced decoding strategies.\n\nI also offered to provide mathematical proof details or comparisons to prior work, pending the user’s interest.",
+                    "summarized_turn_messages": [
+                        "f9f69b26-0e1f-4b70-864f-737c534566c8",
+                        "e9085381-6752-464d-b39d-341a17727822",
+                        "c272c17e-df9d-40db-93f7-e120f1f69bbe"
+                    ]
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "e398030f-f21f-47b2-911a-243a3b41de4d",
+            "children": [
+                "81d8ea8a-c26c-4660-a1f7-5f7c1983cf97"
+            ]
+        },
+        "81d8ea8a-c26c-4660-a1f7-5f7c1983cf97": {
+            "id": "81d8ea8a-c26c-4660-a1f7-5f7c1983cf97",
+            "message": {
+                "id": "81d8ea8a-c26c-4660-a1f7-5f7c1983cf97",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1758176404.1658578,
+                "update_time": null,
+                "content": {
+                    "content_type": "model_editable_context",
+                    "model_set_context": "",
+                    "repository": null,
+                    "repo_summary": null,
+                    "structured_context": null
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                    "request_id": "980ebc33ffe21d87-DXB",
+                    "message_type": "next",
+                    "model_slug": "gpt-5",
+                    "default_model_slug": "gpt-5",
+                    "parent_id": "f9f69b26-0e1f-4b70-864f-737c534566c8",
+                    "timestamp_": "absolute",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "f9f69b26-0e1f-4b70-864f-737c534566c8",
+            "children": [
+                "e9085381-6752-464d-b39d-341a17727822"
+            ]
+        },
+        "e9085381-6752-464d-b39d-341a17727822": {
+            "id": "e9085381-6752-464d-b39d-341a17727822",
+            "message": {
+                "id": "e9085381-6752-464d-b39d-341a17727822",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": []
+                },
+                "create_time": 1758176404.223916,
+                "update_time": null,
+                "content": {
+                    "content_type": "code",
+                    "language": "unknown",
+                    "response_format_name": null,
+                    "text": "search(\"Provide a detailed summary of the key findings and methodology discussed in the paper that won the 'Best Paper Award' at the most recent International Conference on Machine Learning (ICML).\")"
+                },
+                "status": "finished_successfully",
+                "end_turn": null,
+                "weight": 1,
+                "metadata": {
+                    "is_complete": true,
+                    "finish_details": {
+                        "type": "stop"
+                    },
+                    "sonic_classification_result": {
+                        "latency_ms": null,
+                        "search_prob": null,
+                        "complex_search_prob": null,
+                        "force_search_threshold": null,
+                        "classifier_config_name": "sonic_classifier_3cls_ev3",
+                        "search_complexity": "simple"
+                    },
+                    "citations": [],
+                    "content_references": [],
+                    "gizmo_id": "g-p-68cba3ab7eac8191b45ec9655216fbd7",
+                    "request_id": "980ebc33ffe21d87-DXB",
+                    "message_type": "next",
+                    "model_slug": "gpt-5",
+                    "default_model_slug": "gpt-5",
+                    "parent_id": "81d8ea8a-c26c-4660-a1f7-5f7c1983cf97",
+                    "timestamp_": "absolute",
+                    "model_switcher_deny": []
+                },
+                "recipient": "web",
+                "channel": null
+            },
+            "parent": "81d8ea8a-c26c-4660-a1f7-5f7c1983cf97",
+            "children": [
+                "760580b3-ca7b-413a-bb12-c93a3e52e2a3"
+            ]
+        },
+        "760580b3-ca7b-413a-bb12-c93a3e52e2a3": {
+            "id": "760580b3-ca7b-413a-bb12-c93a3e52e2a3",
+            "message": {
+                "id": "760580b3-ca7b-413a-bb12-c93a3e52e2a3",
+                "author": {
+                    "role": "tool",
+                    "name": "web.run",
+                    "metadata": {
+                        "sonicberry_model_id": "current_sonicberry_paid",
+                        "real_author": "tool:web",
+                        "source": "sonic_tool"
+                    }
+                },
+                "create_time": 1758176406.8252802,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": false,
+                "weight": 1,
+                "metadata": {
+                    "search_model_queries": {
+                        "type": "search_model_queries",
+                        "queries": [
+                            "ICML best paper award most recent key findings methodology"
+                        ]
+                    },
+                    "search_turns_count": 1,
+                    "search_source": "composer_auto",
+                    "client_reported_search_source": "composer_auto",
+                    "request_id": "980ebc33ffe21d87-DXB",
+                    "message_type": "next",
+                    "model_slug": "gpt-5",
+                    "default_model_slug": "gpt-5",
+                    "parent_id": "e9085381-6752-464d-b39d-341a17727822",
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "e9085381-6752-464d-b39d-341a17727822",
+            "children": [
+                "2ca31baf-b12f-4fd0-85c7-94b688e5d4fb"
+            ]
+        },
+        "2ca31baf-b12f-4fd0-85c7-94b688e5d4fb": {
+            "id": "2ca31baf-b12f-4fd0-85c7-94b688e5d4fb",
+            "message": {
+                "id": "2ca31baf-b12f-4fd0-85c7-94b688e5d4fb",
+                "author": {
+                    "role": "tool",
+                    "name": "web.run",
+                    "metadata": {
+                        "sonicberry_model_id": "current_sonicberry_paid",
+                        "real_author": "tool:web",
+                        "source": "sonic_tool"
+                    }
+                },
+                "create_time": 1758176406.8110213,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": false,
+                "weight": 1,
+                "metadata": {
+                    "search_result_groups": [
+                        {
+                            "type": "search_result_group",
+                            "domain": "icml.cc",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/icml.cc\/virtual\/2025\/awards_detail",
+                                    "title": "ICML 2025 Awards",
+                                    "snippet": "Our findings provide clear analytical frameworks and practical, data-driven tools that empower policymakers to make principled decisions when designing these ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "icml.cc"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/icml.cc\/virtual\/2024\/awards_detail",
+                                    "title": "ICML 2024 Awards",
+                                    "snippet": "Our main result is a precise characterization of the tradeoff between the accuracy of a learning algorithm and its CMI, answering an open question posed by ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "icml.cc"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/icml.cc\/virtual\/2024\/38324",
+                                    "title": "Best Paper Awards",
+                                    "snippet": "With these new methods, we conduct a comprehensive experimental study consisting of multiple tasks aimed at assessing the effect of removing parameter ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "icml.cc"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/icml.cc\/Conferences\/2023\/Awards",
+                                    "title": "2023 Awards",
+                                    "snippet": "Outstanding Paper Awards. This year six papers were chosen as recipients of the Outstanding Paper Award. The process for selecting papers is as follows.",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "icml.cc"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "kempnerinstitute.harvard.edu",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/kempnerinstitute.harvard.edu\/news\/kempner-institute-researchers-win-outstanding-paper-award-at-icml-2025\/",
+                                    "title": "Kempner Institute Collaborators Win Outstanding Paper ...",
+                                    "snippet": "Jul 15, 2025 — A paper authored by Kempner Institute researchers and collaborators has won an outstanding paper award at ICML 2025, the 42nd International Conference on ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "kempnerinstitute.harvard.edu"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.analyticsvidhya.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.analyticsvidhya.com\/blog\/2024\/08\/icml-2024-best-paper-award\/",
+                                    "title": "This Research Paper Won the ICML 2024 Best Paper Award",
+                                    "snippet": "Aug 8, 2024 — This ICML 2024 Best Paper outlines a framework for measuring dataset diversity in ML, moving beyond vague claims to solid validation ...",
+                                    "ref_id": null,
+                                    "pub_date": 1722962949,
+                                    "attribution": "www.analyticsvidhya.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.reddit.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.reddit.com\/r\/MachineLearning\/comments\/165ial3\/d_a_blog_post_on_yet_another_icml_award_fiasco\/",
+                                    "title": "[D] A blog post on Yet Another ICML Award Fiasco",
+                                    "snippet": "I wrote a blog post on the ICML award fiasco: They gave an outstanding paper award to the D-Adaptation paper, that contains worse results ...",
+                                    "ref_id": null,
+                                    "pub_date": 1693410343.108,
+                                    "attribution": "www.reddit.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.paperdigest.org",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.paperdigest.org\/2024\/09\/most-influential-icml-papers-2024-09\/",
+                                    "title": "Most Influential ICML Papers (2024-09 Version)",
+                                    "snippet": "Sep 29, 2024 — Paper Digest Team analyzes all papers published on ICML in the past years, and presents the 15 most influential papers for each year.",
+                                    "ref_id": null,
+                                    "pub_date": 1727582409,
+                                    "attribution": "www.paperdigest.org"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "uwaterloo.ca",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/uwaterloo.ca\/computer-science\/news\/gautam-kamath-and-international-colleagues-win-best-paper-at-icml-2024",
+                                    "title": "Gautam Kamath and international colleagues win best ...",
+                                    "snippet": "Jul 25, 2024 — The award was given to the research team for their paper, “Position: Considerations for Differentially Private Learning with Large-Scale Public ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "uwaterloo.ca"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.amazon.science",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.amazon.science\/blog\/amazon-researchers-win-best-paper-award-for-helping-promote-fairness-in-ai",
+                                    "title": "Amazon researchers win best-paper award for helping ...",
+                                    "snippet": "Method presented to ICML workshop works with any machine learning model and fairness criterion.",
+                                    "ref_id": null,
+                                    "pub_date": 1595250009.145,
+                                    "attribution": "www.amazon.science"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "arxiv.org",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/arxiv.org\/abs\/2004.11154",
+                                    "title": "Random Features for Kernel Approximation: A Survey on Algorithms, Theory, and Beyond",
+                                    "snippet": "",
+                                    "ref_id": null,
+                                    "pub_date": 1587649488,
+                                    "attribution": "arxiv.org"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/arxiv.org\/abs\/2304.11160",
+                                    "title": "Isotonic Mechanism for Exponential Family Estimation in Machine Learning Peer Review",
+                                    "snippet": "",
+                                    "ref_id": null,
+                                    "pub_date": 1682099948,
+                                    "attribution": "arxiv.org"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/arxiv.org\/abs\/2002.05709",
+                                    "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+                                    "snippet": "",
+                                    "ref_id": null,
+                                    "pub_date": 1581619845,
+                                    "attribution": "arxiv.org"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.wired.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.wired.com\/story\/bytedance-intern-best-paper-neurips",
+                                    "title": "Former ByteDance Intern Accused of Sabotage Among Winners of Prestigious AI Award",
+                                    "snippet": "Keyu Tian, a former ByteDance intern dismissed for alleged professional misconduct, received the Best Paper Award at the NeurIPS conference for his paper on scalable image generation via visual autoregressive modeling. This recognition has sparked controversy due to Tian's alleged deliberate sabotage of ByteDance's research projects, for which the company has sued him for over $1 million in damages. NeurIPS clarified that the award was based on the scientific merit of the paper, not the author's conduct. The case has ignited discussions on the ethical scrutiny in awarding such honors and the integrity of the academic community, highlighting the scarcity of GPU resources in AI research. The allegations have drawn significant attention on social media and various platforms, pushing for a reconsideration of the award due to Tian's alleged serious misconduct.",
+                                    "ref_id": null,
+                                    "pub_date": 1734114863.199,
+                                    "attribution": "www.wired.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "debug_sonic_thread_id": "thread_68cba496daec8330a861deda696d4bad",
+                    "search_turns_count": 1,
+                    "search_source": "composer_auto",
+                    "client_reported_search_source": "composer_auto",
+                    "request_id": "980ebc33ffe21d87-DXB",
+                    "message_type": "next",
+                    "model_slug": "gpt-5",
+                    "default_model_slug": "gpt-5",
+                    "parent_id": "760580b3-ca7b-413a-bb12-c93a3e52e2a3",
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "760580b3-ca7b-413a-bb12-c93a3e52e2a3",
+            "children": [
+                "ba13240c-0b59-40e5-b3d0-e019a945673b"
+            ]
+        },
+        "ba13240c-0b59-40e5-b3d0-e019a945673b": {
+            "id": "ba13240c-0b59-40e5-b3d0-e019a945673b",
+            "message": {
+                "id": "ba13240c-0b59-40e5-b3d0-e019a945673b",
+                "author": {
+                    "role": "tool",
+                    "name": "web.run",
+                    "metadata": {
+                        "sonicberry_model_id": "current_sonicberry_paid",
+                        "real_author": "tool:web",
+                        "source": "sonic_tool"
+                    }
+                },
+                "create_time": 1758176408.619117,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": false,
+                "weight": 1,
+                "metadata": {
+                    "search_model_queries": {
+                        "type": "search_model_queries",
+                        "queries": [
+                            "Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions ICML 2025 methodology"
+                        ]
+                    },
+                    "search_turns_count": 2,
+                    "search_source": "composer_auto",
+                    "client_reported_search_source": "composer_auto",
+                    "request_id": "980ebc33ffe21d87-DXB",
+                    "message_type": "next",
+                    "model_slug": "gpt-5",
+                    "default_model_slug": "gpt-5",
+                    "parent_id": "2ca31baf-b12f-4fd0-85c7-94b688e5d4fb",
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "2ca31baf-b12f-4fd0-85c7-94b688e5d4fb",
+            "children": [
+                "5b105a9d-d11f-4d74-be29-f5a06519f6c9"
+            ]
+        },
+        "5b105a9d-d11f-4d74-be29-f5a06519f6c9": {
+            "id": "5b105a9d-d11f-4d74-be29-f5a06519f6c9",
+            "message": {
+                "id": "5b105a9d-d11f-4d74-be29-f5a06519f6c9",
+                "author": {
+                    "role": "tool",
+                    "name": "web.run",
+                    "metadata": {
+                        "sonicberry_model_id": "current_sonicberry_paid",
+                        "real_author": "tool:web",
+                        "source": "sonic_tool"
+                    }
+                },
+                "create_time": 1758176408.6071014,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        ""
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": false,
+                "weight": 1,
+                "metadata": {
+                    "search_result_groups": [
+                        {
+                            "type": "search_result_group",
+                            "domain": "arxiv.org",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/arxiv.org\/abs\/2502.06768",
+                                    "title": "Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions",
+                                    "snippet": "",
+                                    "ref_id": null,
+                                    "pub_date": 1739213241,
+                                    "attribution": "arxiv.org"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/arxiv.org\/pdf\/2502.06768",
+                                    "title": "Understanding Token Ordering in Masked Diffusions",
+                                    "snippet": "by J Kim · 2025 · Cited by 15 — Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions. Figure 1. (Top) MDM training can be seen as learning multi- ple ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "arxiv.org"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/arxiv.org\/abs\/2509.00707",
+                                    "title": "Reward-Weighted Sampling: Enhancing Non-Autoregressive Characteristics in Masked Diffusion LLMs",
+                                    "snippet": "",
+                                    "ref_id": null,
+                                    "pub_date": 1756619310,
+                                    "attribution": "arxiv.org"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/arxiv.org\/abs\/2508.13148",
+                                    "title": "MDPO: Overcoming the Training-Inference Divide of Masked Diffusion Language Models",
+                                    "snippet": "",
+                                    "ref_id": null,
+                                    "pub_date": 1755539893,
+                                    "attribution": "arxiv.org"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/arxiv.org\/abs\/2502.03540",
+                                    "title": "Path Planning for Masked Diffusion Model Sampling",
+                                    "snippet": "",
+                                    "ref_id": null,
+                                    "pub_date": 1738782052,
+                                    "attribution": "arxiv.org"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "openreview.net",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/openreview.net\/forum?id=DjJmre5IkP",
+                                    "title": "Understanding Token Ordering in Masked Diffusions",
+                                    "snippet": "by J Kim · Cited by 15 — The paper takes a close look at training and inference of masked diffusion models (MDMs), which are a type of discrete diffusion models where ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "openreview.net"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/openreview.net\/group?id=ICML.cc%2F2025%2FConference",
+                                    "title": "ICML 2025 Conference",
+                                    "snippet": "Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions ... Diffusion Models are Trained · pdf icon · Alessandro Favero ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "openreview.net"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "icml.cc",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/icml.cc\/virtual\/2025\/poster\/45990",
+                                    "title": "Understanding Token Ordering in Masked Diffusions",
+                                    "snippet": "Jul 15, 2025 — Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions. Jaeyeon Kim · Kulin Shah · Vasilis Kontonis · Sham ...",
+                                    "ref_id": null,
+                                    "pub_date": 1746662400,
+                                    "attribution": "icml.cc"
+                                },
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/icml.cc\/virtual\/2025\/awards_detail",
+                                    "title": "ICML 2025 Awards",
+                                    "snippet": "Outstanding Paper. Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions.",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "icml.cc"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.youtube.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.youtube.com\/watch?v=dEtju_UAKM0",
+                                    "title": "Train for the Worst Plan for the Best Understanding Token ...",
+                                    "snippet": "Train for the Worst Plan for the Best Understanding Token Ordering in Masked Diffusions（ICML 2025）. 51 views · 1 month ago ...more ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "www.youtube.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "kempnerinstitute.harvard.edu",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/kempnerinstitute.harvard.edu\/news\/kempner-institute-researchers-win-outstanding-paper-award-at-icml-2025\/",
+                                    "title": "Kempner Institute Collaborators Win Outstanding Paper ...",
+                                    "snippet": "Jul 15, 2025 — The award, given to the research team for their paper “Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "kempnerinstitute.harvard.edu"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "chatpaper.com",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/chatpaper.com\/paper\/164950",
+                                    "title": "Understanding Token Ordering in Masked Diffusions",
+                                    "snippet": "The research aims to explore adaptive inference strategies that allow MDMs to decode tokens in an adaptable order, potentially bypassing the difficult training ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "chatpaper.com"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "search_result_group",
+                            "domain": "www.ifml.institute",
+                            "entries": [
+                                {
+                                    "type": "search_result",
+                                    "url": "https:\/\/www.ifml.institute\/node\/541",
+                                    "title": "NSF IFML Researchers Win Outstanding Paper Award at ...",
+                                    "snippet": "Jul 28, 2025 — Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions, was one of six papers to be given the award, out of ...",
+                                    "ref_id": null,
+                                    "pub_date": null,
+                                    "attribution": "www.ifml.institute"
+                                }
+                            ]
+                        }
+                    ],
+                    "debug_sonic_thread_id": "thread_68cba496daec8330a861deda696d4bad",
+                    "search_turns_count": 2,
+                    "search_source": "composer_auto",
+                    "client_reported_search_source": "composer_auto",
+                    "request_id": "980ebc33ffe21d87-DXB",
+                    "message_type": "next",
+                    "model_slug": "gpt-5",
+                    "default_model_slug": "gpt-5",
+                    "parent_id": "ba13240c-0b59-40e5-b3d0-e019a945673b",
+                    "timestamp_": "absolute"
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "ba13240c-0b59-40e5-b3d0-e019a945673b",
+            "children": [
+                "c272c17e-df9d-40db-93f7-e120f1f69bbe"
+            ]
+        },
+        "c272c17e-df9d-40db-93f7-e120f1f69bbe": {
+            "id": "c272c17e-df9d-40db-93f7-e120f1f69bbe",
+            "message": {
+                "id": "c272c17e-df9d-40db-93f7-e120f1f69bbe",
+                "author": {
+                    "role": "assistant",
+                    "name": null,
+                    "metadata": {
+                        "sonicberry_model_id": "current_sonicberry_paid",
+                        "real_author": "tool:web",
+                        "source": "sonic_tool"
+                    }
+                },
+                "create_time": 1758176409.279578,
+                "update_time": null,
+                "content": {
+                    "content_type": "text",
+                    "parts": [
+                        "Here is a detailed summary of the key findings and methodology of *“Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions”*, one of the *Outstanding \/ Best Paper*-winning works at ICML 2025. If you like, I can also pull up critiques and limitations.  \n\n---\n\n## Overview\n\nThe paper studies **Masked Diffusion Models (MDMs)** for discrete data (e.g. text, puzzles) and compares them to the more standard **autoregressive models (ARMs)**. The central theme is about **token ordering**: how the order of decoding (generation) interacts with both training complexity and inference performance.\n\nOn one hand, MDMs are more flexible during inference (they can fill in missing parts in any order), though that flexibility comes with heavy training burden: exponentially many infilling\/masking subproblems. On the other hand, ARMs are more constrained (they generate in a fixed order, typically left-to-right), which simplifies training but limits inference flexibility.\n\nThe authors’ goal is to understand when and how MDMs can surpass ARMs, especially by using *adaptive inference strategies* that pick decoding order smartly, thereby avoiding hard inference \/ decoding subproblems.\n\n---\n\n## Methodology\n\nHere are the main methodological contributions and experiments.\n\n1. **Formalizing Training Complexity vs Inference Flexibility**\n\n   - They rigorously describe the training objective of MDMs, showing that it involves solving (in expectation) *all possible masked infilling tasks* across subsets of sequence positions. In particular, Proposition 2.1 in the paper shows that the MDM loss is equivalent to an expectation over all subsets \\( M \\) of positions and for all masked positions within them. citeturn1search3  \n   - They compare this with ARMs, whose training only involves one (or more restricted set of) maskings consistent with the decoding order (e.g. always masking the future tokens when generating sequentially). This means the number and variety of subproblems that ARMs need to learn are far fewer and often more tractable. citeturn1search3\n\n2. **Hardness \/ Imbalance in Training**\n\n   - **Theoretical results**: They construct simple distributions where ARMs can efficiently generate samples (i.e. easy), but where many of the subproblems MDMs must solve are *computationally intractable*, under certain noise\/masking regimes. In particular, they tap into constructions similar to planted constraint satisfaction problems (CSPs) to argue that some masked subproblems become hard. citeturn1search3  \n   - **Empirical evidence**: Using real-world data (natural text, etc.), they show that many of the masking subproblems during training remain hard — the model’s performance (loss) is much worse on some kinds of maskings (especially those that mask “latent” or “future” tokens, i.e. ones that are harder to predict) than others. There is an imbalance in how well MDMs learn different subproblems. citeturn1search3\n\n3. **Adaptive Inference Strategies**\n\n   Because of the above imbalance, the authors propose inference-time strategies to **choose the decoding (token unmasking) order adaptively**, with the goal of *avoiding* the hard subproblems that the model was poorly trained on.\n\n   Some of the strategies include:\n\n   - *Top probability*: at each inference step, select the position (among masked positions) that the model seems most confident about (highest marginal probability).\n   - *Top probability margin*: pick the position whose top candidate has a large margin to the next best (i.e., where model’s confidence is not just high but distinctly high). This helps avoid positions where it’s very uncertain. citeturn1search3\n\n4. **Benchmarks and Experiments**\n\n   They test these ideas on:\n\n   - **Logic puzzles** like *Sudoku* and *Zebra puzzles*. These are good testbeds because they have natural orderings \/ dependencies: some cells must be filled before others, etc. They show that adaptive inference can increase solving accuracy dramatically — e.g. from < 7% for vanilla MDM inference to ~ 90% for adaptive strategies. In some settings, even outperforming ARMs that have been explicitly trained via teacher forcing to learn specific decoding orders. citeturn1search3turn1search2\n\n   - **Text modeling** and natural language: they also examine likelihood \/ loss on masked prediction tasks with natural text. The experiments show that prediction is worse in “masked future” positions etc., confirming the imbalance; and that adaptive unmasking can help. citeturn1search3\n\n   - Other more general discrete generation tasks, including reasoning tasks, to see how inference strategy affects downstream performance. citeturn1search3\n\n5. **Theoretical‐Empirical Integration**\n\n   The paper doesn’t just do empirical experiments, but pairs them with formal statements about when MDM training complexity leads to intractability. Then it shows how inference‐time tricks can mitigate the practical impact. Thus, it's a strong piece of work combining theory, experiment, and methodological innovation. citeturn1search3\n\n---\n\n## Key Findings\n\nFrom the above methodology, here are the key findings:\n\n- **MDMs face exponentially many subproblems** during training (because any subset of positions may be masked), and many of these can be theoretically or practically very hard. This creates a performance imbalance: the model is under‐trained on some subproblems (maskings) it will later face if inference is uncontrolled.\n\n- **Adaptive inference (choosing which token to unmask next)** can give large gains: substantial improvement in accuracy on logic puzzles, plus better likelihoods in natural text. In particular, even a pretrained MDM can perform much better at inference simply by using a smarter decoding order — no retraining required (or at least minimizing retraining). E.g. for Sudoku, going from ~7% to ~90%. citeturn1search3turn1search2\n\n- In many cases, adaptive strategies allow MDMs to *outperform ARMs*, even though ARMs have advantages in training simplicity. This suggests that the flexibility at inference, if used intelligently, can outweigh the training burden.\n\n- Also, some inference strategies (e.g. picking token with highest margin) are more robust than simpler ones (e.g., highest probability) especially when model uncertainty is high or there are many competing possibilities. \n\n- Finally, the paper suggests that some of the past underperformance of diffusion \/ masked models (versus ARMs) may be less about model capacity or architecture, and more about inference ordering \/ decoding strategy: how you decode matters a lot.\n\n---\n\n## Implications\n\nSome of the broader implications and take-aways:\n\n- For generative modeling in discrete domains, the inference strategy (order of decoding) is almost as important as the training objective.\n\n- MDMs are promising, but naive inference (random or non-adaptive) gives up much of their potential.\n\n- There is a need for more research into *inference‐aware training* (or training that anticipates adaptive decoding) to further close the gap.\n\n- The results suggest tasks with strong natural ordering (texts, logic puzzles, etc.) may benefit especially from methods that respect or adapt to that ordering, rather than treating all masking equally.\n\n- From a theoretical perspective, the hardness results show that training all the subproblems well is infeasible in some regimes, meaning that inference‐strategy is not just a heuristic fix but fundamentally necessary.\n\n---\n\n## Limitations \/ Open Questions\n\nWhile not always emphasized as limitations, the paper suggests or leaves open:\n\n- How to design *better adaptive inference strategies* (beyond top‐probability or margin) that are more global, perhaps anticipate long‐term dependencies.\n\n- The mismatch between what is learned during training and what is required during inference: perhaps ways to adjust training to more directly target the kinds of maskings or subproblems that the adaptive inference will rely upon.\n\n- Computational cost: adaptive inference adds overhead during generation (computing confidences, etc.), possibly limiting scalability or speed.\n\n- Generalization: whether the results on puzzles \/ text extend to other discrete domains (code generation, structured outputs, etc.), or to very large models \/ real‐world systems with high vocabulary sizes.\n\n---\n\nIf you want, I can also summarize the mathematical proofs in more depth, and\/or compare this work with prior state of the art. Do you want me to go ahead with that?"
+                    ]
+                },
+                "status": "finished_successfully",
+                "end_turn": true,
+                "weight": 1,
+                "metadata": {
+                    "content_references": [
+                        {
+                            "matched_text": "citeturn1search3",
+                            "start_idx": 1732,
+                            "end_idx": 1751,
+                            "safe_urls": [
+                                "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([arXiv](https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Understanding Token Ordering in Masked Diffusions",
+                                    "url": "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "by J Kim · 2025 · Cited by 15 — Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions. Figure 1. (Top) MDM training can be seen as learning multi- ple ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 1,
+                                            "ref_type": "search",
+                                            "ref_index": 3
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "arXiv"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn1search3",
+                            "start_idx": 2076,
+                            "end_idx": 2095,
+                            "safe_urls": [
+                                "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([arXiv](https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Understanding Token Ordering in Masked Diffusions",
+                                    "url": "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "by J Kim · 2025 · Cited by 15 — Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions. Figure 1. (Top) MDM training can be seen as learning multi- ple ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 1,
+                                            "ref_type": "search",
+                                            "ref_index": 3
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "arXiv"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn1search3",
+                            "start_idx": 2536,
+                            "end_idx": 2555,
+                            "safe_urls": [
+                                "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([arXiv](https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Understanding Token Ordering in Masked Diffusions",
+                                    "url": "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "by J Kim · 2025 · Cited by 15 — Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions. Figure 1. (Top) MDM training can be seen as learning multi- ple ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 1,
+                                            "ref_type": "search",
+                                            "ref_index": 3
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "arXiv"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn1search3",
+                            "start_idx": 2955,
+                            "end_idx": 2974,
+                            "safe_urls": [
+                                "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([arXiv](https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Understanding Token Ordering in Masked Diffusions",
+                                    "url": "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "by J Kim · 2025 · Cited by 15 — Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions. Figure 1. (Top) MDM training can be seen as learning multi- ple ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 1,
+                                            "ref_type": "search",
+                                            "ref_index": 3
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "arXiv"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn1search3",
+                            "start_idx": 3679,
+                            "end_idx": 3698,
+                            "safe_urls": [
+                                "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([arXiv](https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Understanding Token Ordering in Masked Diffusions",
+                                    "url": "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "by J Kim · 2025 · Cited by 15 — Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions. Figure 1. (Top) MDM training can be seen as learning multi- ple ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 1,
+                                            "ref_type": "search",
+                                            "ref_index": 3
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "arXiv"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn1search3turn1search2",
+                            "start_idx": 4230,
+                            "end_idx": 4262,
+                            "safe_urls": [
+                                "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                                "https:\/\/icml.cc\/virtual\/2025\/poster\/45990?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([arXiv](https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Understanding Token Ordering in Masked Diffusions",
+                                    "url": "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "by J Kim · 2025 · Cited by 15 — Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions. Figure 1. (Top) MDM training can be seen as learning multi- ple ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [
+                                        {
+                                            "title": "Understanding Token Ordering in Masked Diffusions",
+                                            "url": "https:\/\/icml.cc\/virtual\/2025\/poster\/45990?utm_source=chatgpt.com",
+                                            "pub_date": null,
+                                            "snippet": "Jul 15, 2025 — Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions. Jaeyeon Kim · Kulin Shah · Vasilis Kontonis · Sham ...",
+                                            "attribution": "ICML"
+                                        }
+                                    ],
+                                    "refs": [
+                                        {
+                                            "turn_index": 1,
+                                            "ref_type": "search",
+                                            "ref_index": 3
+                                        },
+                                        {
+                                            "turn_index": 1,
+                                            "ref_type": "search",
+                                            "ref_index": 2
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "arXiv"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn1search3",
+                            "start_idx": 4536,
+                            "end_idx": 4555,
+                            "safe_urls": [
+                                "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([arXiv](https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Understanding Token Ordering in Masked Diffusions",
+                                    "url": "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "by J Kim · 2025 · Cited by 15 — Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions. Figure 1. (Top) MDM training can be seen as learning multi- ple ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 1,
+                                            "ref_type": "search",
+                                            "ref_index": 3
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "arXiv"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn1search3",
+                            "start_idx": 4697,
+                            "end_idx": 4716,
+                            "safe_urls": [
+                                "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([arXiv](https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Understanding Token Ordering in Masked Diffusions",
+                                    "url": "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "by J Kim · 2025 · Cited by 15 — Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions. Figure 1. (Top) MDM training can be seen as learning multi- ple ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 1,
+                                            "ref_type": "search",
+                                            "ref_index": 3
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "arXiv"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn1search3",
+                            "start_idx": 5080,
+                            "end_idx": 5099,
+                            "safe_urls": [
+                                "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([arXiv](https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Understanding Token Ordering in Masked Diffusions",
+                                    "url": "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "by J Kim · 2025 · Cited by 15 — Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions. Figure 1. (Top) MDM training can be seen as learning multi- ple ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [],
+                                    "refs": [
+                                        {
+                                            "turn_index": 1,
+                                            "ref_type": "search",
+                                            "ref_index": 3
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "arXiv"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        },
+                        {
+                            "matched_text": "citeturn1search3turn1search2",
+                            "start_idx": 5900,
+                            "end_idx": 5932,
+                            "safe_urls": [
+                                "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                                "https:\/\/icml.cc\/virtual\/2025\/poster\/45990?utm_source=chatgpt.com"
+                            ],
+                            "refs": [],
+                            "alt": "([arXiv](https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com))",
+                            "prompt_text": null,
+                            "type": "grouped_webpages",
+                            "items": [
+                                {
+                                    "title": "Understanding Token Ordering in Masked Diffusions",
+                                    "url": "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                                    "pub_date": null,
+                                    "snippet": "by J Kim · 2025 · Cited by 15 — Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions. Figure 1. (Top) MDM training can be seen as learning multi- ple ...",
+                                    "attribution_segments": null,
+                                    "supporting_websites": [
+                                        {
+                                            "title": "Understanding Token Ordering in Masked Diffusions",
+                                            "url": "https:\/\/icml.cc\/virtual\/2025\/poster\/45990?utm_source=chatgpt.com",
+                                            "pub_date": null,
+                                            "snippet": "Jul 15, 2025 — Train for the Worst, Plan for the Best: Understanding Token Ordering in Masked Diffusions. Jaeyeon Kim · Kulin Shah · Vasilis Kontonis · Sham ...",
+                                            "attribution": "ICML"
+                                        }
+                                    ],
+                                    "refs": [
+                                        {
+                                            "turn_index": 1,
+                                            "ref_type": "search",
+                                            "ref_index": 3
+                                        },
+                                        {
+                                            "turn_index": 1,
+                                            "ref_type": "search",
+                                            "ref_index": 2
+                                        }
+                                    ],
+                                    "hue": null,
+                                    "attributions": null,
+                                    "attribution": "arXiv"
+                                }
+                            ],
+                            "fallback_items": null,
+                            "status": "done",
+                            "error": null,
+                            "style": null
+                        }
+                    ],
+                    "safe_urls": [
+                        "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                        "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                        "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                        "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                        "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                        "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                        "https:\/\/icml.cc\/virtual\/2025\/poster\/45990?utm_source=chatgpt.com",
+                        "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                        "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                        "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                        "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com",
+                        "https:\/\/icml.cc\/virtual\/2025\/poster\/45990?utm_source=chatgpt.com"
+                    ],
+                    "citations": [],
+                    "gizmo_id": "g-p-68cba3ab7eac8191b45ec9655216fbd7",
+                    "search_turns_count": 2,
+                    "search_source": "composer_auto",
+                    "client_reported_search_source": "composer_auto",
+                    "request_id": "980ebc33ffe21d87-DXB",
+                    "message_type": "next",
+                    "model_slug": "gpt-5",
+                    "default_model_slug": "gpt-5",
+                    "parent_id": "5b105a9d-d11f-4d74-be29-f5a06519f6c9",
+                    "timestamp_": "absolute",
+                    "model_switcher_deny": []
+                },
+                "recipient": "all",
+                "channel": null
+            },
+            "parent": "5b105a9d-d11f-4d74-be29-f5a06519f6c9",
+            "children": []
+        }
+    },
+    "moderation_results": [],
+    "current_node": "c272c17e-df9d-40db-93f7-e120f1f69bbe",
+    "plugin_ids": null,
+    "conversation_id": "68cba493-25ec-8323-8b90-0f85c5f8e186",
+    "conversation_template_id": "g-p-68cba3ab7eac8191b45ec9655216fbd7",
+    "gizmo_id": "g-p-68cba3ab7eac8191b45ec9655216fbd7",
+    "gizmo_type": "snorlax",
+    "is_archived": false,
+    "is_starred": null,
+    "safe_urls": [
+        "https:\/\/icml.cc\/virtual\/2025\/poster\/45990?utm_source=chatgpt.com",
+        "https:\/\/arxiv.org\/pdf\/2502.06768?utm_source=chatgpt.com"
+    ],
+    "blocked_urls": [],
+    "default_model_slug": "gpt-5",
+    "conversation_origin": null,
+    "voice": null,
+    "async_status": null,
+    "disabled_tool_ids": [],
+    "is_do_not_remember": false,
+    "memory_scope": "global_enabled",
+    "sugar_item_id": null,
+    "sugar_item_visible": false,
+    "is_study_mode": false,
+    "owner": null
+}
