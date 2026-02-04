@@ -4,7 +4,7 @@ import numpy as np
 import argparse
 import sys
 
-def analyze_factors(input_file):
+def analyze_factors(input_file, excluded_factors=None):
     # Define Factor Names
     factor_names = {
         "F01": "Statistics present",
@@ -79,6 +79,11 @@ def analyze_factors(input_file):
     
     # Pre-processing: Remove constant columns or identical columns
     factors = [f"F{i:02d}" for i in range(1, 16)]
+
+    # Filter out user-excluded factors
+    if excluded_factors:
+        print(f"Excluding user-specified factors: {excluded_factors}")
+        factors = [f for f in factors if f not in excluded_factors]
     
     # 1. Drop constant columns AND Perfect Separation Candidates
     valid_factors = []
@@ -202,6 +207,7 @@ def analyze_factors(input_file):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('input_file', help="Path to cleaned CSV file")
+    parser.add_argument('--exclude', nargs='+', default=[], help="List of factors to exclude (e.g. F01 F12)")
     args = parser.parse_args()
     
-    analyze_factors(args.input_file)
+    analyze_factors(args.input_file, args.exclude)
