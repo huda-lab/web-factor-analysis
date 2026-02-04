@@ -1,5 +1,62 @@
-# Git ignore file for .env
-.env
-*.pyc
+# Conversation Data
+archive/
+conversations/
+conversations_content/
+
+# Results & Extraction Output
+agent_results_trash/
+agent_results/
+cited_urls_content/
+visualizations/
+visualizations copy/
+*.csv
+*.txt
+*.log
+*.zip
+*.gguf
+
+# Allow specific analysis results and datasets
+!analysis_dataset.csv
+!analysis_dataset_cleaned.csv
+!factor_analysis_results.csv
+!cited_conversations.csv
+!unique_cited_conversations.csv
+!cited_urls.csv
+!uncited_urls.csv
+!filtered_uncited_urls.csv
+!uncited_in_cited_conversations.csv
+
+
+# Allow specific text files
+!requirements.txt
+!models.txt
+
+# Python / Environment
 __pycache__/
+*.pyc
+venv/
+.env
+.DS_Store
+
+# Debugging & Maintenance Scripts
+check_csv_coverage.py
+find_duplicate_claims.py
+cleanup_dataset.py
+split_uncited_urls.py
+validate_urls.py
+test_*.py
+
+# Legacy/Deprecated Analysis Scripts
+compare_analyzers.py
+create_factor_chart.py
+generate_citation_histogram.py
+sample_urls.py
+visualize_results.py
+analyze_url_factors_llm.py
+analyze_url_factors_local.py
+analyze_url_factors.py
+analyze_factor_combinations.py
+analyze_factor_predictors.py
+analyze_features.py
+analyze_citation_ratios.py
 
