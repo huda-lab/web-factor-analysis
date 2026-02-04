@@ -2,6 +2,7 @@
 archive/
 conversations/
 conversations_content/
+conversations_files/
 
 # Results & Extraction Output
 agent_results_trash/
@@ -11,8 +12,9 @@ visualizations/
 visualizations copy/
 *.csv
 *.txt
-*.log
 *.zip
+!conversations_files.zip
+*.gguf
 *.gguf
 
 # Allow specific analysis results and datasets
