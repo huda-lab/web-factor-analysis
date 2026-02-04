@@ -21,7 +21,6 @@ To ensure meaningful analysis, we filtered out low-quality or irrelevant URLs.
 *   **Script**: `filter_substantial_urls.py`
 *   **Criteria**:  
     *   Excluded file extensions like `.pdf`, `.png`, `.jpg`.
-    *   Excluded social media domains and search engines.
     *   Filtered for "substantial" content likely to contain article text.
 *   **Output**: `filtered_uncited_urls.csv`
 
