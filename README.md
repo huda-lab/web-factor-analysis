@@ -21,15 +21,16 @@ To ensure meaningful analysis, we filtered out low-quality or irrelevant URLs.
 *   **Script**: `filter_substantial_urls.py`
 *   **Criteria**:  
     *   Excluded file extensions like `.pdf`, `.png`, `.jpg`.
-    *   Filtered for "substantial" content likely to contain article text.
+    *   **Included** major social media domains (Facebook, Twitter, Reddit) to capture the full breadth of conversation sources.
+    *   Excluded specific video platforms (YouTube, TikTok) and document hosts (Google Docs).
 *   **Output**: `filtered_uncited_urls.csv`
 
-### Sampling
-Due to the large volume of uncited URLs, we created a stratified random sample for manageable processing.
+### Sampling (Skipped)
+To ensure maximum statistical power, we skipped sampling and processed the full dataset.
 
-*   **Script**: `sample_urls.py`
-*   **Methodology**: Stratified sampling by `conversation_id` to ensure diversity across different topics/sessions.
-*   **Output**: `sampled_uncited_urls.csv` (used for the uncited cohort).
+*   **Script**: `sample_urls.py` (Not used in final analysis).
+*   **Decision**: Processed all 12,892 filtered URLs.
+*   **Input for Agent**: `filtered_uncited_urls.csv`
 
 ## 2. Feature Extraction (AI Agent)
 
@@ -51,7 +52,7 @@ We utilized an OpenAI-powered Agent to evaluate each URL against 15 specific fac
     *   Support for custom output directories.
 *   **Execution**:
     *   **Cited Cohort**: Processed `cited_urls.csv` -> Output to `agent_results_cited/`.
-    *   **Uncited Cohort**: Processed `sampled_uncited_urls.csv` -> Output to `agent_results_uncited/`.
+    *   **Uncited Cohort**: Processed `filtered_uncited_urls.csv` -> Output to `agent_results_uncited/`.
 
 ## 3. Data Compilation & Cleaning
 
@@ -91,69 +92,10 @@ Finally, we performed a multivariate logistic regression to determine which fact
     *   **95% Confidence Interval**.
 *   **Output**: `factor_analysis_results.csv`
 
-## 5. Dataset Pipeline Statistics
+## Summary of Results
+The final results table (`factor_analysis_results.csv`) highlights which credibility markers are most strongly associated with the AI's decision to cite a source.
 
-### Source Data
-*   **Total Original Conversations**: 282
-    *   Source: `conversations_files/` directory
-*   **Total Cited URLs**: 251
-    *   Source: `cited_urls.csv`
-*   **Total Uncited URLs (Raw)**: 25,194
-    *   Source: `uncited_urls.csv`
-*   **Unique Cited Conversations**: 172
-    *   Source: `unique_cited_conversations.csv`
-    *   *Note: These are conversations that contain at least one cited link.*
-
-### Filtration Process (Uncited URLs)
-We filtered the raw uncited URLs to ensure relevance and quality.
-
-#### Stage 1: Context Relevance
-We restricted the dataset to uncited URLs that appeared in **cited conversations only**.
-*   **Input**: 25,194 Raw URLs
-*   **Output**: 16,180 URLs
-*   **Source**: `uncited_in_cited_conversations.csv`
-
-#### Stage 2: Substantial Content Filter
-We removed URLs unlikely to contain parseable text content based on file extensions and specific domains.
-*   **Criteria**:
-    *   **Excluded Extensions**: `.pdf`, `.jpg`, `.png`, `.gif`, `.doc/x`, `.xls/x`, `.ppt/x`, `.zip`, `.mp3/4`.
-    *   **Excluded Domains**: `youtube.com`, `vimeo.com`, `tiktok.com`, `docs.google.com` (and variants), `notion.so`, `scribd.com`, `pinterest.com`.
-*   **Input**: 16,180 URLs
-*   **Output**: 12,892 URLs
-*   **Source**: `filtered_uncited_urls.csv`
-
-### Feature Extraction
-*   **Total Attempted**: 13,143 (251 Cited + 12,892 Uncited)
-*   **Successful Fetches**: 9,587 (73.0% Success Rate)
-    *   **Cited**: 229 (91.2% Success)
-    *   **Uncited**: 9,358 (72.6% Success)
-*   **Excluded (Fetch Failures)**: 3,556 (404s, Timeouts, Bot Protection)
-
-## 6. Factor Analysis Findings
-
-We performed a multivariate logistic regression to predict citation status based on 15 quality factors.
-
-### Significant Findings
-
-**1. "Plain Language" is negatively associated with Citation**
-*   **Odds Ratio**: 0.55 (p = 0.013)
-*   **Interpretation**: Pages identified as using "Plain Language" were **45% less likely** to be cited by the model.
-*   **Prevalence**: 8.7% in Cited vs 15.9% in Uncited.
-*   *Hypothesis*: The model prefers detailed, complex, or technical sources over simplified explanations.
-
-**2. "Early Summary Block" is positively associated with Citation (Marginal)**
-*   **Odds Ratio**: 1.31 (p = 0.055)
-*   **Interpretation**: Pages with a clear summary at the top are **31% more likely** to be cited.
-*   **Prevalence**: 60.3% in Cited vs 51.8% in Uncited.
-
-### Factors with No Significant Difference
-Most "trust" signals (Transparency, Safety, Credentials) appeared at similar rates in both groups, suggesting the model is not strongly discriminating based on these specific heuristic markers, or that the extraction for these was universally high/low.
-
-*   **Fluent Prose**: ~99% in both groups.
-*   **Statistics Present**: ~100% in both groups (Dropped from regression due to lack of variance).
-*   **Transparent Provenance**: ~97% in both groups.
-
-### Full Regression Table
+### Regression Analysis Table
 
 | Factor | Name | Cited % | Uncited % | Odds Ratio | P-Value | Significance |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
