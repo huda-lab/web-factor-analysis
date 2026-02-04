@@ -25,13 +25,6 @@ To ensure meaningful analysis, we filtered out low-quality or irrelevant URLs.
     *   Excluded specific video platforms (YouTube, TikTok) and document hosts (Google Docs).
 *   **Output**: `filtered_uncited_urls.csv`
 
-### Sampling (Skipped)
-To ensure maximum statistical power, we skipped sampling and processed the full dataset.
-
-*   **Script**: `sample_urls.py` (Not used in final analysis).
-*   **Decision**: Processed all 12,892 filtered URLs.
-*   **Input for Agent**: `filtered_uncited_urls.csv`
-
 ## 2. Feature Extraction (AI Agent)
 
 We utilized an OpenAI-powered Agent to evaluate each URL against 15 specific factors.
@@ -97,23 +90,23 @@ The final results table (`factor_analysis_results.csv`) highlights which credibi
 
 ### Regression Analysis Table
 
-| Factor | Name | Cited % | Uncited % | Odds Ratio | P-Value | Significance |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **F05** | **Plain language** | **8.7%** | **15.9%** | **0.55** | **0.013** | **Significant** |
-| **F07** | **Early summary block** | **60.3%** | **51.8%** | **1.31** | **0.055** | Marginal |
-| F08 | Authoritative tone | 26.6% | 32.9% | 0.75 | 0.080 | Marginal |
-| F03 | Inline citations | 70.3% | 64.7% | 1.22 | 0.217 | - |
-| F06 | Accurate technical terms | 99.1% | 97.6% | 2.42 | 0.227 | - |
-| F09 | Safety guidance | 15.7% | 15.1% | 1.23 | 0.309 | - |
-| F02 | Expert quote | 36.7% | 37.8% | 0.89 | 0.438 | - |
-| F14 | Credential harvesting | 2.2% | 1.7% | 1.43 | 0.440 | - |
-| F15 | Unverified downloads | 5.2% | 6.1% | 0.87 | 0.638 | - |
-| F13 | Unverified exclusivity | 1.3% | 1.8% | 0.82 | 0.735 | - |
-| F10 | Transparent provenance | 97.8% | 97.5% | 1.05 | 0.910 | - |
-| F11 | Keyword stuffing | 0.4% | 0.6% | 0.98 | 0.987 | - |
-| F04 | Fluent prose | 99.6% | 99.3% | 1.01 | 0.992 | - |
-| F01 | Statistics present | 100% | 99.4% | - | - | Dropped (No Variance) |
-| F12 | Novelty without facts | 0.0% | 0.2% | - | - | Dropped (No Variance) |
+| Factor | Name | Count Cited | Count Uncited | Prev Cited | Prev Uncited | Coefficient | Odds Ratio | CI 95% | P Value |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| F01 | Statistics present | 229 | 9299 | 100.0% | 99.4% | 0.0000 | 0.0000 | [0.0000, 0.0000] | 1.0000 |
+| F02 | Expert quote | 84 | 3539 | 36.7% | 37.8% | -0.1119 | 0.8941 | [0.6740, 1.1861] | 0.4375 |
+| F03 | Inline citations | 161 | 6055 | 70.3% | 64.7% | 0.1947 | 1.2150 | [0.8918, 1.6552] | 0.2171 |
+| F04 | Fluent prose | 228 | 9297 | 99.6% | 99.3% | 0.0099 | 1.0099 | [0.1325, 7.6977] | 0.9924 |
+| F05 | Plain language | 20 | 1485 | 8.7% | 15.9% | -0.6034 | 0.5469 | [0.3406, 0.8781] | 0.0125 |
+| F06 | Accurate technical terms | 227 | 9132 | 99.1% | 97.6% | 0.8836 | 2.4196 | [0.5763, 10.1591] | 0.2274 |
+| F07 | Early summary block | 138 | 4845 | 60.3% | 51.8% | 0.2728 | 1.3137 | [0.9940, 1.7361] | 0.0551 |
+| F08 | Authoritative tone | 61 | 3078 | 26.6% | 32.9% | -0.2921 | 0.7467 | [0.5382, 1.0359] | 0.0804 |
+| F09 | Safety guidance | 36 | 1415 | 15.7% | 15.1% | 0.2033 | 1.2255 | [0.8283, 1.8131] | 0.3090 |
+| F10 | Transparent provenance | 224 | 9125 | 97.8% | 97.5% | 0.0522 | 1.0536 | [0.4259, 2.6063] | 0.9100 |
+| F11 | Keyword stuffing | 1 | 52 | 0.4% | 0.6% | -0.0168 | 0.9833 | [0.1342, 7.2078] | 0.9868 |
+| F12 | Novelty without facts | 0 | 17 | 0.0% | 0.2% | 0.0000 | 0.0000 | [0.0000, 0.0000] | 1.0000 |
+| F13 | Unverified exclusivity | 3 | 168 | 1.3% | 1.8% | -0.1996 | 0.8190 | [0.2584, 2.5957] | 0.7345 |
+| F14 | Credential harvesting | 5 | 161 | 2.2% | 1.7% | 0.3575 | 1.4298 | [0.5767, 3.5444] | 0.4402 |
+| F15 | Unverified downloads or scripts | 12 | 572 | 5.2% | 6.1% | -0.1418 | 0.8678 | [0.4805, 1.5671] | 0.6381 |
 
 **Key Files Inventory:**
 - `batch_run_agent.py`: Principal script for data collection.
